@@ -1,0 +1,20 @@
+[
+  {
+    "id": "F-001",
+    "title": "Unpatched OpenSSL vulnerability",
+    "severity": "High",
+    "control": "SI-2"
+  },
+  {
+    "id": "F-002",
+    "title": "Weak password policy enforcement",
+    "severity": "Medium",
+    "control": "IA-5"
+  },
+  {
+    "id": "F-003",
+    "title": "Missing audit log review",
+    "severity": "Low",
+    "control": "AU-6"
+  }
+]

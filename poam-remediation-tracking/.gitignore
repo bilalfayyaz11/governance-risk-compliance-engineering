@@ -1,0 +1,15 @@
+.redmine.env
+*.env
+.env
+.env.*
+*.sqlite3
+*.db
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+vendor/
+tmp/
+secrets/
+credentials/
