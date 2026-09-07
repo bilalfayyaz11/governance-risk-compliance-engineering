@@ -1,0 +1,5 @@
+control_family,capability,metric,status,monitoring_frequency,evidence_source
+SI,File Integrity Monitoring,FIM operational evidence,Effective,6 hours,Wazuh FIM
+CA,Security Configuration Assessment,SCA operational evidence,Effective,Daily,Wazuh SCA
+CA,Continuous Monitoring Infrastructure,Wazuh stack availability,Effective,Continuous,systemd/Wazuh
+CM,Configuration Monitoring,Required monitoring interfaces,Effective,Continuous,Network listener validation

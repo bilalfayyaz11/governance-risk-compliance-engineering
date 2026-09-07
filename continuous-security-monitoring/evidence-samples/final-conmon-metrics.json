@@ -1,0 +1,42 @@
+{
+  "collection_timestamp_utc": "2026-09-07T16:51:05.363431+00:00",
+  "stack": {
+    "services": {
+      "wazuh-indexer": "active",
+      "wazuh-manager": "active",
+      "filebeat": "active",
+      "wazuh-dashboard": "active"
+    },
+    "all_services_active": true,
+    "ports": {
+      "443": true,
+      "1514": true,
+      "1515": true,
+      "55000": true,
+      "9200": true,
+      "9300": true
+    }
+  },
+  "fim": {
+    "scan_start_events_observed": 3,
+    "scan_completion_events_observed": 2,
+    "manager_active": true
+  },
+  "sca": {
+    "scan_completion_events_observed": 2,
+    "ubuntu_24_04_cis_policy_observed": true
+  },
+  "controlled_asset": {
+    "exists": true,
+    "size_bytes": 87,
+    "mtime_utc": "2026-09-07T16:51:05.065683+00:00"
+  },
+  "conmon_health": {
+    "stack_healthy": true,
+    "required_ports_available": true,
+    "fim_operational": true,
+    "sca_operational": true
+  }
+}
+
+Evidence written to: /opt/conmon/metrics/conmon-metrics-20260907T165105Z.json

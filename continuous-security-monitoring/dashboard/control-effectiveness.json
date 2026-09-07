@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-09-07T16:49:53.542275+00:00",
+  "effective": 4,
+  "degraded": 0,
+  "controls": [
+    {
+      "control_family": "SI",
+      "capability": "File Integrity Monitoring",
+      "metric": "FIM operational evidence",
+      "status": "Effective",
+      "monitoring_frequency": "6 hours",
+      "evidence_source": "Wazuh FIM"
+    },
+    {
+      "control_family": "CA",
+      "capability": "Security Configuration Assessment",
+      "metric": "SCA operational evidence",
+      "status": "Effective",
+      "monitoring_frequency": "Daily",
+      "evidence_source": "Wazuh SCA"
+    },
+    {
+      "control_family": "CA",
+      "capability": "Continuous Monitoring Infrastructure",
+      "metric": "Wazuh stack availability",
+      "status": "Effective",
+      "monitoring_frequency": "Continuous",
+      "evidence_source": "systemd/Wazuh"
+    },
+    {
+      "control_family": "CM",
+      "capability": "Configuration Monitoring",
+      "metric": "Required monitoring interfaces",
+      "status": "Effective",
+      "monitoring_frequency": "Continuous",
+      "evidence_source": "Network listener validation"
+    }
+  ],
+  "service_state": {
+    "wazuh-indexer": "active",
+    "wazuh-manager": "active",
+    "filebeat": "active",
+    "wazuh-dashboard": "active"
+  },
+  "port_state": {
+    "443": true,
+    "1514": true,
+    "1515": true,
+    "55000": true,
+    "9200": true,
+    "9300": true
+  }
+}

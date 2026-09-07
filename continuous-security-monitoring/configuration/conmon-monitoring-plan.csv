@@ -1,0 +1,11 @@
+metric_id,metric,source,frequency,threshold,owner,escalation
+CM-01,FIM unauthorized changes,Wazuh FIM,6 hours,Any unauthorized critical-file change,Security Operations,Immediate investigation
+CM-02,SCA compliance failures,Wazuh SCA,Daily,High-risk control failure,Security Engineering,24 hours
+CM-03,Critical vulnerabilities,Wazuh Vulnerability Detection,Daily,Any Critical CVE,Security Engineering,24 hours
+CM-04,High vulnerabilities,Wazuh Vulnerability Detection,Daily,More than 5 unresolved High CVEs,System Owner,3 business days
+CM-05,Authentication anomalies,Wazuh Rules,Continuous,Repeated failed authentication or privilege escalation,Security Operations,Immediate investigation
+CM-06,Agent availability,Wazuh Manager,Hourly,Agent unavailable > 1 hour,Platform Operations,Same business day
+CM-07,Configuration drift,Wazuh FIM + SCA,Daily,Security baseline deviation,Security Engineering,3 business days
+CM-08,Monitoring coverage,Wazuh Manager,Weekly,Less than 95 percent monitored assets reporting,System Owner,5 business days
+CM-09,Open security findings,POA&M,Weekly,Overdue High or Critical finding,Risk Owner,Immediate escalation
+CM-10,ConMon risk summary,Aggregated Evidence,Monthly,Moderate or higher residual risk increase,Authorizing Official,Monthly AO review

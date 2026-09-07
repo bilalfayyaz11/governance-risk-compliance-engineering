@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-09-07T16:51:05.238043+00:00",
+  "assets_checked": 3,
+  "compliant": 3,
+  "drifted": 0,
+  "missing": 0,
+  "results": [
+    {
+      "path": "/var/ossec/etc/ossec.conf",
+      "status": "Compliant",
+      "baseline_sha256": "619a1d3576ce72cdec813ee325fb49c4e28bf619ab29f7edd68d46a205f417cf",
+      "current_sha256": "619a1d3576ce72cdec813ee325fb49c4e28bf619ab29f7edd68d46a205f417cf",
+      "checked_utc": "2026-09-07T16:51:05.237894+00:00"
+    },
+    {
+      "path": "/opt/conmon/critical-files/application.conf",
+      "status": "Compliant",
+      "baseline_sha256": "a54c262a4bb608c48a2ba93a9528f8ffaceb6a98ee5d49d769d3f6d2c5910c1a",
+      "current_sha256": "a54c262a4bb608c48a2ba93a9528f8ffaceb6a98ee5d49d769d3f6d2c5910c1a",
+      "checked_utc": "2026-09-07T16:51:05.237978+00:00"
+    },
+    {
+      "path": "/opt/conmon/critical-files/private.conf",
+      "status": "Compliant",
+      "baseline_sha256": "02b0e6927d5bc35c29fb2f8037f50ced14cef033070191e6ca0cd84a9fd2da51",
+      "current_sha256": "02b0e6927d5bc35c29fb2f8037f50ced14cef033070191e6ca0cd84a9fd2da51",
+      "checked_utc": "2026-09-07T16:51:05.238037+00:00"
+    }
+  ]
+}

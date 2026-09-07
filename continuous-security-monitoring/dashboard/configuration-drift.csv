@@ -1,0 +1,4 @@
+path,status,baseline_sha256,current_sha256,checked_utc
+/var/ossec/etc/ossec.conf,Compliant,619a1d3576ce72cdec813ee325fb49c4e28bf619ab29f7edd68d46a205f417cf,619a1d3576ce72cdec813ee325fb49c4e28bf619ab29f7edd68d46a205f417cf,2026-09-07T16:49:53.757757+00:00
+/opt/conmon/critical-files/application.conf,Compliant,a54c262a4bb608c48a2ba93a9528f8ffaceb6a98ee5d49d769d3f6d2c5910c1a,a54c262a4bb608c48a2ba93a9528f8ffaceb6a98ee5d49d769d3f6d2c5910c1a,2026-09-07T16:49:53.757842+00:00
+/opt/conmon/critical-files/private.conf,Compliant,02b0e6927d5bc35c29fb2f8037f50ced14cef033070191e6ca0cd84a9fd2da51,02b0e6927d5bc35c29fb2f8037f50ced14cef033070191e6ca0cd84a9fd2da51,2026-09-07T16:49:53.757902+00:00

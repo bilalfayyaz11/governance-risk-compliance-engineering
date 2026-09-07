@@ -1,0 +1,10 @@
+*.log
+*.key
+*.pem
+*.crt
+*wazuh-password*
+wazuh-install-files.tar
+secrets/
+credentials/
+__pycache__/
+*.pyc
