@@ -1,0 +1,5 @@
+id,weakness,control,severity,status,milestone,due_date
+F-001,Outstanding OpenSSL security update,SI-2,High,Open,Apply approved security update and verify remediation,2026-10-07
+F-002,Password policy enforcement gap,IA-5,Medium,Open,Implement stronger password controls and validate enforcement,2026-11-06
+F-003,Incomplete recurring audit review evidence,AU-6,Low,Risk Accepted,Maintain acceptance record and reassess at annual review,2027-09-07
+F-004,Backup restoration testing evidence incomplete,CP-9,Medium,Open,Perform documented restoration test and capture evidence,2026-11-06

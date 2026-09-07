@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "package_root": ".",
+  "generated_at": "2026-09-07T15:23:07Z",
+  "artifact_count": 8,
+  "entries": [
+    {
+      "relative_path": "briefing/executive-risk-summary.md",
+      "sha256": "0c74f8a700dff676ecb23ed51086b6a50332bb0477fe2663eef1fe8f103d1e74",
+      "size_bytes": 2511,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "build_evidence_index.py",
+      "sha256": "c3cafb66cfcd97b8472e708fd5227eeff239bbfce9f8c591ac1b6ffeb5d03aa0",
+      "size_bytes": 2108,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "poam/poam.csv",
+      "sha256": "9917911eb45a98c263f851acc625a259f036576d570cff3cad680cefc649a31e",
+      "size_bytes": 583,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "risk-assessment/risk-assessment.md",
+      "sha256": "c49e507380c3f7ce2799c80b91045cceb03667c44551072c41f6ff1a87bdceef",
+      "size_bytes": 4162,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "sar/security-assessment-report.md",
+      "sha256": "fdfd7e24cfa3577b8731c6fb0f363d4844ef0de71fb9de1c53eee526ea1b9bfc",
+      "size_bytes": 3812,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "ssp/system-security-plan.md",
+      "sha256": "44e5d276d791864918816ed2a5ad0d2f1c38176d9651d1153af243c0868794ba",
+      "size_bytes": 5302,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "validate_artifacts.py",
+      "sha256": "97b3161841833556cc50ef79bbcc9d7fee6a8a33b513b8ab555b391c10683606",
+      "size_bytes": 3504,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    },
+    {
+      "relative_path": "verify_evidence_index.py",
+      "sha256": "159ddbac19edbd307efaa1a1d1e11620158aea0f171d4a549b35fab742b37bc3",
+      "size_bytes": 1919,
+      "indexed_at": "2026-09-07T15:23:07Z"
+    }
+  ]
+}

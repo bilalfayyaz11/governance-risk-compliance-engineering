@@ -1,0 +1,32 @@
+ATO Evidence Chain-of-Custody Record
+====================================
+
+Evidence Index:
+evidence/evidence-index.json
+
+Hash Algorithm:
+SHA-256
+
+Evidence Index SHA-256:
+fafe921ccdce5af942cc199bc3868dc2698e15302f3279cceba934f1634887fa
+
+Detached Signature:
+evidence/evidence-index.json.sig
+
+Detached Signature SHA-256:
+94742285546ca306685df6aba6684d267bcf374b39b2fa63033837b5885dc9a0
+
+GPG Signing Key Fingerprint:
+3FF429D590640CD1F0826D992F3DE7AE8B565355
+
+Signing Identity:
+ATO Evidence Signing <ato-signing@example.local>
+
+Purpose:
+The evidence index provides file-level tamper detection for the
+authorization package. The detached GPG signature provides
+cryptographic authenticity and integrity protection for the index.
+
+The signing identity and key are simulated for this engineering
+exercise and do not represent a production Authorizing Official
+or organizational PKI identity.
