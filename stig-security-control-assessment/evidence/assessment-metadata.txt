@@ -1,0 +1,6 @@
+assessment_timestamp=2026-09-07T14:37:10+00:00
+hostname=ip-172-31-10-5
+operating_system=Ubuntu 24.04.3 LTS
+openscap_version=OpenSCAP command line tool (oscap) 1.3.9
+datastream=ssg-ubuntu2004-ds.xml
+profile=xccdf_org.ssgproject.content_profile_standard

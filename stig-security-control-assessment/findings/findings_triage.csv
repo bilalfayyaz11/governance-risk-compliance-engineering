@@ -1,0 +1,6 @@
+Rule ID,Title,Severity,Risk Rating,Remediation Action,Owner,Target Date,Status
+xccdf_org.ssgproject.content_rule_dconf_gnome_disable_ctrlaltdel_reboot,Disable Ctrl-Alt-Del Reboot Key Sequence in GNOME3,CAT I,High,Implement benchmark-prescribed corrective action after operational impact review.,Linux Workload Operations Team,2026-10-07,Open
+xccdf_org.ssgproject.content_rule_disable_ctrlaltdel_reboot,Disable Ctrl-Alt-Del Reboot Activation,CAT I,High,Implement benchmark-prescribed corrective action after operational impact review.,Linux Workload Operations Team,2026-10-07,Open
+xccdf_org.ssgproject.content_rule_grub2_password,Set Boot Loader Password in grub2,CAT I,High,Implement benchmark-prescribed corrective action after operational impact review.,Linux Workload Operations Team,2026-10-07,Open
+xccdf_org.ssgproject.content_rule_grub2_uefi_password,Set the UEFI Boot Loader Password,CAT I,High,Implement benchmark-prescribed corrective action after operational impact review.,Linux Workload Operations Team,2026-10-07,Open
+xccdf_org.ssgproject.content_rule_is_fips_mode_enabled,Verify '/proc/sys/crypto/fips_enabled' exists,CAT I,High,Implement benchmark-prescribed corrective action after operational impact review.,Linux Workload Operations Team,2026-10-07,Open

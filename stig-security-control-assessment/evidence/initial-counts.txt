@@ -1,0 +1,5 @@
+notselected=408
+fail=88
+notapplicable=86
+pass=62
+notchecked=4

@@ -1,0 +1,18 @@
+remediation_timestamp=2026-09-07T14:45:14+00:00
+assessor=Bilal Fayyaz
+scope=whitelist-approved low-risk STIG findings
+
+[
+  {
+    "rule_id": "xccdf_org.ssgproject.content_rule_package_aide_installed",
+    "title": "Install AIDE",
+    "action": "install_aide",
+    "description": "Install AIDE file integrity monitoring package"
+  },
+  {
+    "rule_id": "xccdf_org.ssgproject.content_rule_package_audit_installed",
+    "title": "Ensure the audit Subsystem is Installed",
+    "action": "install_auditd",
+    "description": "Install Linux audit subsystem package"
+  }
+]

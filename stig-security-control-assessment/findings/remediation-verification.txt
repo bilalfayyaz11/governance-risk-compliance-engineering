@@ -1,0 +1,2 @@
+xccdf_org.ssgproject.content_rule_package_aide_installed: fail -> fail [NOT VERIFIED]
+xccdf_org.ssgproject.content_rule_package_audit_installed: fail -> pass [VERIFIED]
