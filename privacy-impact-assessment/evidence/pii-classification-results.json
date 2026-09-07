@@ -1,0 +1,115 @@
+[
+  {
+    "field": "patient_id",
+    "description": "Unique identifier assigned to an individual patient",
+    "category": "direct identifier",
+    "sensitivity": "high",
+    "purpose": "Patient identification and linkage of clinical records",
+    "gdpr_article_6_basis": "Article 6(1)(c) - compliance with a legal obligation",
+    "gdpr_article_9_basis": "Not independently applicable unless linked to health data",
+    "pdpl_basis": "Processing necessary to satisfy applicable healthcare and regulatory obligations",
+    "safeguards": [
+      "Role-based access control",
+      "Pseudonymization in analytics datasets",
+      "Encryption at rest and in transit"
+    ],
+    "risk_tier": "High",
+    "enhanced_safeguards_required": true,
+    "classification_reason": "High-sensitivity identifiable personal data requires elevated protection."
+  },
+  {
+    "field": "eeg_signal_data",
+    "description": "Raw and processed electroencephalography measurements generated during BCI sessions",
+    "category": "special category (health/biometric)",
+    "sensitivity": "high",
+    "purpose": "Clinical neural-signal analysis and BCI operation",
+    "gdpr_article_6_basis": "Article 6(1)(c) - compliance with a legal obligation",
+    "gdpr_article_9_basis": "Article 9(2)(h) - medical diagnosis, provision of health or social care, or management of health systems and services",
+    "pdpl_basis": "Sensitive health data processing subject to applicable PDPL healthcare and sensitive-data requirements",
+    "safeguards": [
+      "Strong encryption",
+      "Least-privilege access",
+      "Segregated analytics environment",
+      "Access logging",
+      "Retention controls"
+    ],
+    "risk_tier": "Critical",
+    "enhanced_safeguards_required": true,
+    "classification_reason": "Special-category health or biometric data requires enhanced privacy safeguards."
+  },
+  {
+    "field": "device_ip_address",
+    "description": "Network address associated with the BCI acquisition device or patient session",
+    "category": "indirect identifier",
+    "sensitivity": "medium",
+    "purpose": "Security monitoring, device connectivity, and troubleshooting",
+    "gdpr_article_6_basis": "Article 6(1)(f) - legitimate interests in maintaining system and network security",
+    "gdpr_article_9_basis": "Not applicable when processed independently of special-category information",
+    "pdpl_basis": "Processing for legitimate operational and security purposes, subject to applicable PDPL conditions",
+    "safeguards": [
+      "Restricted log access",
+      "IP truncation or pseudonymization where feasible",
+      "Defined retention period"
+    ],
+    "risk_tier": "Medium",
+    "enhanced_safeguards_required": false,
+    "classification_reason": "Identifiable or linkable personal data with moderate privacy impact."
+  },
+  {
+    "field": "session_timestamp",
+    "description": "Date and time associated with an individual BCI recording session",
+    "category": "indirect identifier",
+    "sensitivity": "medium",
+    "purpose": "Clinical session sequencing, auditability, and troubleshooting",
+    "gdpr_article_6_basis": "Article 6(1)(c) - compliance with healthcare recordkeeping obligations",
+    "gdpr_article_9_basis": "Article 9(2)(h) when the timestamp forms part of the patient's health record",
+    "pdpl_basis": "Processing necessary for healthcare record management and applicable regulatory obligations",
+    "safeguards": [
+      "Access control",
+      "Retention limits",
+      "Pseudonymized analytics identifiers"
+    ],
+    "risk_tier": "Medium",
+    "enhanced_safeguards_required": false,
+    "classification_reason": "Identifiable or linkable personal data with moderate privacy impact."
+  },
+  {
+    "field": "consent_record",
+    "description": "Record of patient privacy notices, permissions, withdrawals, and consent history",
+    "category": "direct identifier",
+    "sensitivity": "high",
+    "purpose": "Demonstrating privacy choices and accountability",
+    "gdpr_article_6_basis": "Article 6(1)(c) - compliance with legal accountability obligations",
+    "gdpr_article_9_basis": "Article 9(2)(a) - explicit consent where consent is the applicable condition for special-category processing",
+    "pdpl_basis": "Consent documentation and withdrawal management where consent is the applicable legal basis under PDPL",
+    "safeguards": [
+      "Immutable audit history",
+      "Restricted administrative access",
+      "Consent withdrawal tracking",
+      "Integrity verification"
+    ],
+    "risk_tier": "High",
+    "enhanced_safeguards_required": true,
+    "classification_reason": "High-sensitivity identifiable personal data requires elevated protection."
+  },
+  {
+    "field": "clinician_notes",
+    "description": "Clinical observations, diagnoses, treatment context, and interpretation of neural-signal results",
+    "category": "special category (health)",
+    "sensitivity": "high",
+    "purpose": "Diagnosis, treatment, clinical interpretation, and continuity of care",
+    "gdpr_article_6_basis": "Article 6(1)(c) - compliance with healthcare and professional obligations",
+    "gdpr_article_9_basis": "Article 9(2)(h) - medical diagnosis and provision of health care",
+    "pdpl_basis": "Sensitive health data processing necessary for healthcare services, subject to applicable PDPL requirements",
+    "safeguards": [
+      "Clinical role-based access",
+      "Encryption",
+      "Audit logging",
+      "Data-loss prevention",
+      "Retention and secure disposal controls"
+    ],
+    "risk_tier": "Critical",
+    "enhanced_safeguards_required": true,
+    "classification_reason": "Special-category health or biometric data requires enhanced privacy safeguards."
+  }
+]

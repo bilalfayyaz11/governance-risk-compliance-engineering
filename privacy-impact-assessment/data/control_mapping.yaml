@@ -1,0 +1,103 @@
+framework:
+  name: "NIST SP 800-53 Rev. 5"
+  mapping_scope: "Privacy-focused DPIA mitigation mapping"
+  mapping_note: >
+    PT and PM controls are used where they directly support privacy governance.
+    Security controls outside PT/PM are included where the mitigation is
+    primarily technical rather than privacy-programmatic.
+
+mappings:
+
+  - risk_id: "R1"
+    risk: "Unauthorized access to raw EEG biometric and health data"
+    mitigation: "Restrict processing and access to sensitive neural and health information"
+    primary_control:
+      control_family: "PT"
+      control_id: "PT-2"
+      control_name: "Authority to Process Personally Identifiable Information"
+    supporting_controls:
+      - control_id: "PT-7"
+        control_name: "Specific Categories of Personally Identifiable Information"
+      - control_id: "AC-6"
+        control_name: "Least Privilege"
+      - control_id: "SC-13"
+        control_name: "Cryptographic Protection"
+    justification: >
+      PT-2 establishes authority for processing PII and PT-7 addresses
+      designated categories of PII requiring particular handling.
+      AC-6 and SC-13 implement the technical least-privilege and
+      cryptographic protections applied to the neural dataset.
+
+  - risk_id: "R2"
+    risk: "Re-identification through correlated metadata"
+    mitigation: "Data minimization, pseudonymization, separation of identity mappings, and retention limits"
+    primary_control:
+      control_family: "PT"
+      control_id: "PT-3"
+      control_name: "Personally Identifiable Information Processing Purposes"
+    supporting_controls:
+      - control_id: "SI-12(1)"
+        control_name: "Information Management and Retention | Limit Personally Identifiable Information Elements"
+      - control_id: "PT-7"
+        control_name: "Specific Categories of Personally Identifiable Information"
+    justification: >
+      PT-3 requires processing purposes to be identified and limits
+      processing to purposes compatible with those purposes. SI-12(1)
+      directly supports minimization by limiting PII elements processed
+      by the system. PT-7 supports additional handling requirements for
+      designated sensitive categories.
+
+  - risk_id: "R3"
+    risk: "Excessive third-party cloud analytics provider access"
+    mitigation: "Processor due diligence, contractual restrictions, minimum necessary disclosure, access control, and oversight"
+    primary_control:
+      control_family: "PM"
+      control_id: "PM-30"
+      control_name: "Supply Chain Risk Management Strategy"
+    supporting_controls:
+      - control_id: "PT-2"
+        control_name: "Authority to Process Personally Identifiable Information"
+      - control_id: "PT-3"
+        control_name: "Personally Identifiable Information Processing Purposes"
+      - control_id: "SR-6"
+        control_name: "Supplier Assessments and Reviews"
+    justification: >
+      Third-party processing requires governance of supplier risk and
+      assurance that the processor has authority to process PII only
+      for defined purposes. PM-30 and SR-6 support supplier governance
+      and assessment, while PT-2 and PT-3 constrain authorized PII
+      processing and purpose.
+
+  - risk_id: "R4"
+    risk: "Cross-border transfer to a jurisdiction without adequate privacy protections"
+    mitigation: "Transfer assessment, approved safeguards, minimization, encryption, and privacy/legal approval"
+    primary_control:
+      control_family: "PT"
+      control_id: "PT-2"
+      control_name: "Authority to Process Personally Identifiable Information"
+    supporting_controls:
+      - control_id: "PT-3"
+        control_name: "Personally Identifiable Information Processing Purposes"
+      - control_id: "PM-27"
+        control_name: "Privacy Reporting"
+      - control_id: "SC-13"
+        control_name: "Cryptographic Protection"
+    justification: >
+      Cross-border processing must remain within established processing
+      authority and documented purposes. PT-2 and PT-3 provide that
+      privacy-governance foundation. PM-27 supports organizational
+      privacy reporting, while SC-13 supports protection of data
+      transferred across external boundaries.
+
+mapping_caveats:
+  - >
+    NIST SP 800-53 is not itself a GDPR or Saudi PDPL transfer
+    authorization mechanism; legal transfer requirements must be
+    evaluated separately.
+  - >
+    Technical safeguards are mapped to applicable security control
+    families rather than artificially assigning every mitigation to PT
+    or PM.
+  - >
+    Control mappings represent engineering traceability and do not by
+    themselves establish regulatory compliance.
