@@ -1,0 +1,9 @@
+mapping_status,control_theme,required_evidence
+Equivalent,Policy,Approved cybersecurity policy with owner approval and documented review date
+Equivalent,Vulnerability Management,Vulnerability scan reports remediation tickets and remediation tracking records
+Equivalent,Monitoring,SIEM logs monitoring dashboards alert records and monitoring procedures
+Equivalent,Incident Management,Incident response plan incident tickets investigation records and post-incident reports
+Equivalent,Identity and Access Management,Access review records user provisioning records role assignments and approval evidence
+Equivalent,Logging,Audit logs log-retention configuration and centralized logging evidence
+Gap,Configuration Management,Approved configuration baseline change records and configuration review evidence
+Gap,Recovery Planning,Recovery plan backup records recovery test results and restoration evidence

@@ -1,0 +1,3 @@
+control_theme,mapping_status,mapping_rationale,iso_control_id,iso_control_title,iso_category,nist_control_id,nist_control_title,nist_category,sama_control_id,sama_control_title,sama_category
+Configuration Management,Gap,"ISO and NIST have explicit configuration-management references in this catalog extract, while no directly mapped SAMA control was selected.",A.8.9,Configuration management,Technological,PR.PS-01,Configuration management practices are established and applied,Protect,,,
+Recovery Planning,Gap,"A recovery-specific NIST outcome is present in the sample catalog, but equivalent ISO and SAMA controls were not included in this simplified extract.",,,,RC.RP-01,The recovery portion of the incident response plan is executed,Recover,,,

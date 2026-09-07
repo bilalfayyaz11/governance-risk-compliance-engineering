@@ -1,0 +1,9 @@
+control_id,control_title,category
+A.5.1,Policies for information security,Organizational
+A.8.8,Management of technical vulnerabilities,Technological
+A.5.24,Information security incident management planning and preparation,Organizational
+A.8.16,Monitoring activities,Technological
+A.5.15,Access control,Organizational
+A.5.23,Information security for use of cloud services,Organizational
+A.8.9,Configuration management,Technological
+A.8.15,Logging,Technological

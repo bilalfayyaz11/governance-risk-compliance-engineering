@@ -1,0 +1,9 @@
+control_id,control_title,category
+GV.PO-01,Cybersecurity risk management policy is established communicated and enforced,Govern
+ID.RA-01,Vulnerabilities in assets are identified validated and recorded,Identify
+DE.CM-01,Networks and network services are monitored,Detect
+RS.MA-01,The incident response plan is executed in coordination with relevant parties,Respond
+PR.AA-01,Identities and credentials are managed for authorized users services and hardware,Protect
+PR.PS-01,Configuration management practices are established and applied,Protect
+RC.RP-01,The recovery portion of the incident response plan is executed,Recover
+ID.AM-01,Inventories of hardware managed by the organization are maintained,Identify
