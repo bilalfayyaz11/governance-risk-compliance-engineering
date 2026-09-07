@@ -1,0 +1,38 @@
+SYSTEM: Patient Appointment Scheduling System
+
+Information Type 1:
+NIST Reference: D.14.1 - Access to Care
+Description: Appointment dates, appointment times, provider assignments,
+scheduling status, and information used to coordinate patient access to care.
+
+Final Impact:
+Confidentiality: Low
+Integrity: Moderate
+Availability: Moderate
+
+Adjustment:
+Availability raised from Low to Moderate because prolonged disruption of
+scheduling across the clinic network could seriously affect timely access
+to care and continuity of patient services.
+
+
+Information Type 2:
+NIST Reference: C.2.8.9 - Personal Identity and Authentication
+Description: Patient names, phone numbers, email addresses, and identifying
+information used to associate appointments with the correct individuals.
+
+Final Impact:
+Confidentiality: Moderate
+Integrity: Moderate
+Availability: Moderate
+
+Adjustment:
+Moderate confidentiality is retained because unauthorized disclosure of
+patient identity and contact information creates privacy impact. Integrity
+and availability remain Moderate based on the provisional information-type
+categorization and the operational importance of accurate identity data.
+
+
+SOURCE:
+NIST SP 800-60 Volume 2 Revision 1
+FIPS Publication 199

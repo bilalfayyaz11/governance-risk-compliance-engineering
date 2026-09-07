@@ -1,0 +1,63 @@
+SECURITY CATEGORIZATION MEMO
+
+System Name: Patient Appointment Scheduling System
+Prepared By: Bilal Fayyaz, Cybersecurity Risk & Controls Analyst
+Date: September 7, 2026
+
+PURPOSE
+
+This memo documents the security categorization of the Patient Appointment
+Scheduling System using FIPS 199 and NIST SP 800-60 guidance.
+
+INFORMATION TYPES IDENTIFIED
+
+1. D.14.1 - Access to Care
+   Confidentiality: Low
+   Integrity: Moderate
+   Availability: Moderate
+
+2. C.2.8.9 - Personal Identity and Authentication
+   Confidentiality: Moderate
+   Integrity: Moderate
+   Availability: Moderate
+
+OVERALL SYSTEM CATEGORIZATION
+(FIPS 199 High-Water Mark)
+
+Confidentiality: Moderate
+Integrity: Moderate
+Availability: Moderate
+
+Security Categorization:
+SC = {(confidentiality, MODERATE),
+      (integrity, MODERATE),
+      (availability, MODERATE)}
+
+JUSTIFICATION SUMMARY
+
+The system processes appointment scheduling information together with patient
+names and basic contact information.
+
+Confidentiality is categorized as Moderate because unauthorized disclosure of
+patient identity and contact information could create a serious privacy impact.
+
+Integrity is categorized as Moderate because inaccurate or unauthorized
+modification of identity or scheduling information could cause incorrect
+appointments, provider assignments, or disruption to patient access to care.
+
+Availability is categorized as Moderate because prolonged loss of the
+scheduling capability across the clinic network could seriously interfere with
+timely access to care and continuity of patient services.
+
+Using the FIPS 199 high-water-mark method, the highest impact value for each
+security objective is Moderate.
+
+RECOMMENDATION
+
+Categorize the Patient Appointment Scheduling System as a MODERATE-impact
+information system and use this categorization as an input to subsequent
+security control selection and risk management activities.
+
+Authorizing Official Signature: ______________________________
+
+Date: ____________________

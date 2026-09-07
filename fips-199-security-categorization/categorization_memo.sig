@@ -1,0 +1,1 @@
+5a0271984216ad9369472cd9d078ad2adc7234a7b930081aba7c730d7b1b0f6e  categorization_memo.txt
