@@ -1,0 +1,13 @@
+factor,node_group,min,most_likely,max,unit,distribution,assumption
+Threat Event Frequency,TEF,1,4,12,events_per_year,pert,"Third-party credential compromise attempts are expected several times annually; lower bound assumes limited exposure, upper bound assumes elevated credential-targeting activity."
+Threat Capability,TC,45,70,95,percentile,pert,"Threat actors capable of credential theft and cloud access are expected to range from moderately capable to highly capable."
+Control Strength,CS,50,72,92,percentile,pert,"Existing MFA, conditional access, vendor monitoring, PAM, and cloud logging provide material resistance but are not assumed perfect."
+Vulnerability,Vuln,0.05,0.32,0.80,probability,derived,"Derived from Threat Capability versus Control Strength rather than sampled independently."
+Loss Event Frequency,LEF,0.05,1.28,9.60,events_per_year,derived,"Derived as TEF multiplied by Vulnerability for each Monte Carlo iteration."
+Primary Loss - Incident Response,PLM,75000,220000,900000,USD,pert,"Includes forensic investigation, containment, specialist response, legal coordination, and breach-management labor."
+Primary Loss - System Recovery,PLM,40000,130000,600000,USD,pert,"Includes credential reset, access remediation, restoration, validation, and temporary operational disruption."
+Primary Loss - Legal and Notification,PLM,50000,175000,700000,USD,pert,"Includes legal review, patient notification, external counsel, breach response administration, and contractual investigation."
+Secondary Loss Probability,SLEF,0.20,0.55,0.90,probability,pert,"Regulatory, reputational, or customer-related secondary impacts do not occur in every loss event."
+Secondary Loss - Regulatory,SLM,100000,650000,4000000,USD,pert,"Represents uncertain regulatory penalties, investigation costs, corrective action, and jurisdiction-dependent exposure."
+Secondary Loss - Reputation and Attrition,SLM,150000,900000,6000000,USD,pert,"Represents customer attrition, delayed contracts, trust degradation, communications, and commercial response."
+Secondary Loss - Third-Party Dispute,SLM,50000,300000,1800000,USD,pert,"Represents supplier dispute, contractual recovery effort, replacement cost, and external assurance requirements."
