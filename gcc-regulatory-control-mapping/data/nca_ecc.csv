@@ -1,0 +1,13 @@
+control_id,domain,title,description,control_type
+NCA-1-1,Governance,Cybersecurity Governance,Cybersecurity governance roles and responsibilities shall be formally defined and approved,Governance
+NCA-2-1,Asset Management,Information Asset Inventory,Organizations shall maintain an up-to-date inventory of information and technology assets,Preventive
+NCA-2-2,Identity and Access Management,Privileged Access Control,Privileged access shall be restricted according to least privilege and periodically reviewed,Preventive
+NCA-2-3,Data Protection,National Data Residency,Sensitive regulated data shall be stored and processed within the Kingdom unless formally authorized otherwise,Preventive
+NCA-2-4,Cryptography,Encryption of Sensitive Data,Sensitive information shall be protected using approved cryptographic mechanisms at rest and in transit,Preventive
+NCA-2-5,Logging and Monitoring,Security Event Logging,Security events shall be logged monitored protected from tampering and retained for investigation,Detective
+NCA-2-6,Logging and Monitoring,Arabic Security Reporting,Audit and compliance evidence required by national authorities shall be available in Arabic when requested,Detective
+NCA-2-7,Incident Response,National Cybersecurity Reporting,Material cybersecurity incidents shall be reported to the competent national cybersecurity authority within mandated timelines,Corrective
+NCA-2-8,Business Continuity,Cybersecurity Continuity,Cybersecurity continuity and recovery procedures shall be tested periodically,Corrective
+NCA-2-9,Third-Party Security,Supplier Security Requirements,Cybersecurity requirements shall be incorporated into contracts with external service providers,Preventive
+NCA-2-10,Cloud Security,Local Cloud Hosting,Regulated workloads shall use approved hosting locations and local cloud regions when required by national policy,Preventive
+NCA-2-11,Vulnerability Management,Vulnerability Remediation,Vulnerabilities shall be identified prioritized remediated and tracked according to risk,Corrective

@@ -1,0 +1,13 @@
+control_id,domain,title,description,control_type
+A.5.1,Governance,Policies for Information Security,Information security policy and topic-specific policies shall be defined approved communicated and reviewed,Governance
+A.5.9,Asset Management,Inventory of Information and Other Associated Assets,An inventory of information and other associated assets including owners shall be developed and maintained,Preventive
+A.5.15,Identity and Access Management,Access Control,Rules to control physical and logical access shall be established and implemented,Preventive
+A.5.19,Third-Party Security,Information Security in Supplier Relationships,Processes and procedures shall manage information security risks associated with suppliers,Preventive
+A.5.24,Incident Response,Information Security Incident Management Planning and Preparation,Plan and prepare for managing information security incidents,Corrective
+A.5.29,Business Continuity,Information Security During Disruption,Plan how to maintain information security during disruption,Corrective
+A.5.30,Business Continuity,ICT Readiness for Business Continuity,ICT readiness shall be planned implemented maintained and tested,Corrective
+A.5.31,Compliance,Legal Statutory Regulatory and Contractual Requirements,Applicable legal statutory regulatory and contractual requirements shall be identified documented and kept up to date,Governance
+A.8.8,Vulnerability Management,Management of Technical Vulnerabilities,Information about technical vulnerabilities shall be obtained and exposure evaluated and treated,Corrective
+A.8.15,Logging and Monitoring,Logging,Logs that record activities exceptions faults and other relevant events shall be produced stored protected and analyzed,Detective
+A.8.16,Logging and Monitoring,Monitoring Activities,Networks systems and applications shall be monitored for anomalous behavior,Detective
+A.8.24,Cryptography,Use of Cryptography,Rules for effective use of cryptography including cryptographic key management shall be defined and implemented,Preventive

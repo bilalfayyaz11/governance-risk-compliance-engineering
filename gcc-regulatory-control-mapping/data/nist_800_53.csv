@@ -1,0 +1,17 @@
+control_id,domain,title,description,control_type
+AC-2,Identity and Access Management,Account Management,Manage system accounts including creation modification disabling and removal,Preventive
+AC-3,Identity and Access Management,Access Enforcement,Enforce approved authorizations for logical access to information and system resources,Preventive
+AC-6,Identity and Access Management,Least Privilege,Employ the principle of least privilege allowing only authorized accesses necessary for assigned tasks,Preventive
+AU-2,Logging and Monitoring,Event Logging,Identify event types that systems are capable of logging in support of audit requirements,Detective
+AU-6,Logging and Monitoring,Audit Record Review Analysis and Reporting,Review and analyze system audit records for indications of inappropriate or unusual activity,Detective
+CP-2,Business Continuity,Contingency Plan,Develop maintain and coordinate a contingency plan for the system,Corrective
+CP-4,Business Continuity,Contingency Plan Testing,Test the contingency plan to determine effectiveness and organizational readiness,Corrective
+IA-2,Identity and Access Management,Identification and Authentication,Uniquely identify and authenticate organizational users and processes,Preventive
+IR-4,Incident Response,Incident Handling,Implement an incident handling capability for security incidents,Corrective
+IR-6,Incident Response,Incident Reporting,Require personnel to report suspected incidents and report incident information to designated authorities,Corrective
+RA-3,Risk Management,Risk Assessment,Conduct risk assessments that identify threats vulnerabilities likelihood and impact,Governance
+RA-5,Vulnerability Management,Vulnerability Monitoring and Scanning,Monitor and scan for vulnerabilities and remediate identified weaknesses,Detective
+SC-8,Cryptography,Transmission Confidentiality and Integrity,Protect confidentiality and integrity of transmitted information,Preventive
+SC-13,Cryptography,Cryptographic Protection,Implement cryptographic mechanisms according to applicable laws directives and standards,Preventive
+SI-4,Logging and Monitoring,System Monitoring,Monitor the system to detect attacks indicators of attacks and unauthorized connections,Detective
+SR-3,Third-Party Security,Supply Chain Controls and Processes,Establish processes to identify and address supply chain risks,Preventive

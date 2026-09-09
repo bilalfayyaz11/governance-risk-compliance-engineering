@@ -1,0 +1,13 @@
+control_id,domain,title,description,control_type
+ISR-1-1,Governance,Information Security Governance,Government entities shall establish governance accountability and oversight for information security,Governance
+ISR-2-1,Risk Management,Information Security Risk Management,Information security risks shall be assessed treated monitored and reviewed,Governance
+ISR-3-1,Asset Management,Asset Classification,Information assets shall be inventoried classified and assigned appropriate protection requirements,Preventive
+ISR-3-2,Identity and Access Management,Logical Access Control,Access shall be granted according to business requirements and least privilege,Preventive
+ISR-3-3,Data Protection,Local Data Hosting,Government information classified as sensitive shall be hosted in approved UAE locations where required,Preventive
+ISR-3-4,Logging and Monitoring,Security Logging,Information systems shall generate retain and protect audit logs for security monitoring and investigation,Detective
+ISR-3-5,Logging and Monitoring,Arabic Audit Evidence,Audit evidence and regulatory reports shall be made available in Arabic where mandated by the responsible authority,Detective
+ISR-3-6,Incident Response,National Incident Notification,Significant incidents shall be reported to the competent UAE cybersecurity authority or national incident response function,Corrective
+ISR-3-7,Third-Party Security,Supplier Assurance,External service providers shall comply with defined information security requirements and provide assurance evidence,Preventive
+ISR-3-8,Business Continuity,Service Continuity,Critical information services shall maintain tested continuity and recovery capabilities,Corrective
+ISR-3-9,Vulnerability Management,Technical Vulnerability Management,Vulnerabilities shall be identified evaluated and remediated within risk-based timelines,Corrective
+ISR-3-10,Cryptography,Cryptographic Protection,Sensitive information shall be encrypted using approved cryptographic methods,Preventive

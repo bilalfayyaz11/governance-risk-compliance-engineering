@@ -1,0 +1,15 @@
+domain,NCA_ECC,SAMA_CSF,UAE_ISR,QATAR_NIA,NCA_ECC_control_count,SAMA_CSF_control_count,UAE_ISR_control_count,QATAR_NIA_control_count,nist_mapping,iso_mapping,nist_mapping_count,iso_mapping_count,crosswalk_coverage_pct,data_residency,arabic_logging,national_cert_reporting,local_hosting_mandate
+Asset Management,Yes,Yes,Yes,Yes,1,1,1,1,No,No,0,0,0.0,No,No,No,No
+Business Continuity,Yes,Yes,Yes,Yes,1,1,1,1,No,No,0,0,0.0,No,No,No,No
+Change Management,No,Yes,No,No,0,1,0,0,No,No,0,0,0.0,No,No,No,No
+Cloud Security,Yes,Yes,No,Yes,1,1,0,1,No,No,0,0,0.0,No,No,No,Yes
+Cryptography,Yes,No,Yes,No,1,0,1,0,No,No,0,0,0.0,No,No,No,No
+Cybersecurity Governance,No,Yes,No,No,0,1,0,0,No,No,0,0,0.0,No,No,No,No
+Data Protection,Yes,Yes,Yes,Yes,1,1,1,1,No,Yes,0,1,25.0,Yes,No,No,Yes
+Governance,Yes,No,Yes,Yes,1,0,1,1,No,No,0,0,0.0,No,No,No,No
+Identity and Access Management,Yes,Yes,Yes,Yes,1,1,1,1,Yes,Yes,2,1,50.0,No,No,No,No
+Incident Response,Yes,Yes,Yes,Yes,1,1,1,1,Yes,No,2,0,50.0,No,No,Yes,No
+Logging and Monitoring,Yes,Yes,Yes,Yes,2,1,2,2,Yes,Yes,2,3,57.14,No,Yes,No,No
+Risk Management,No,Yes,Yes,Yes,0,1,1,1,Yes,No,1,0,33.33,No,No,No,No
+Third-Party Security,Yes,Yes,Yes,Yes,1,1,1,1,Yes,Yes,1,1,50.0,No,No,No,No
+Vulnerability Management,Yes,Yes,Yes,Yes,1,1,1,1,No,Yes,0,1,25.0,No,No,No,No

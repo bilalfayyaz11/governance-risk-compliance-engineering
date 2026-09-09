@@ -1,0 +1,13 @@
+control_id,domain,title,description,control_type
+NIA-1-1,Governance,Information Assurance Governance,Organizations shall establish information assurance governance with defined accountability,Governance
+NIA-2-1,Risk Management,Information Security Risk Assessment,Information security risks shall be identified evaluated treated and reviewed periodically,Governance
+NIA-2-2,Asset Management,Information Asset Inventory,Information assets shall be identified classified and assigned accountable ownership,Preventive
+NIA-2-3,Identity and Access Management,User Access Management,Logical access shall follow least privilege need-to-know and periodic access review requirements,Preventive
+NIA-2-4,Data Protection,Qatar Data Residency,Restricted or regulated information shall remain within Qatar or approved national hosting environments where required,Preventive
+NIA-2-5,Logging and Monitoring,Security Audit Logging,System activities and security-relevant events shall be logged retained and monitored,Detective
+NIA-2-6,Logging and Monitoring,Arabic Compliance Records,Compliance and audit records shall be available in Arabic when required by national authorities,Detective
+NIA-2-7,Incident Response,National CERT Notification,Reportable cybersecurity incidents shall be notified to the national cybersecurity authority or CERT within required timelines,Corrective
+NIA-2-8,Third-Party Security,Third-Party Assurance,Suppliers shall be evaluated for security risk and bound by contractual information assurance requirements,Preventive
+NIA-2-9,Business Continuity,Information Service Recovery,Recovery procedures shall be maintained tested and aligned with business impact requirements,Corrective
+NIA-2-10,Cloud Security,Approved Local Hosting,Regulated services shall use local or nationally approved hosting environments where mandated,Preventive
+NIA-2-11,Vulnerability Management,Vulnerability Remediation,Vulnerabilities shall be identified prioritized and remediated according to risk and exposure,Corrective

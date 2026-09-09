@@ -1,0 +1,13 @@
+control_id,domain,title,description,control_type
+SAMA-1-1,Cybersecurity Governance,Cybersecurity Strategy,Financial institutions shall maintain an approved cybersecurity strategy aligned with business objectives,Governance
+SAMA-2-1,Risk Management,Cybersecurity Risk Assessment,Cybersecurity risks shall be identified assessed treated and monitored using a formal methodology,Governance
+SAMA-3-1,Identity and Access Management,Access Rights Management,Access rights shall be granted based on business need least privilege and segregation of duties,Preventive
+SAMA-3-2,Data Protection,Customer Data Protection,Customer and financial information shall be protected against unauthorized disclosure alteration and loss,Preventive
+SAMA-3-3,Logging and Monitoring,Security Monitoring,Security logs and relevant events shall be monitored to identify suspicious or unauthorized activity,Detective
+SAMA-3-4,Incident Response,Regulatory Incident Notification,Significant cybersecurity incidents shall be escalated and reported to the competent financial regulator as required,Corrective
+SAMA-3-5,Third-Party Security,Outsourcing Security,Third-party and outsourcing arrangements shall include cybersecurity requirements and assurance obligations,Preventive
+SAMA-3-6,Business Continuity,Cyber Resilience,Recovery capabilities shall be maintained and tested for critical financial services,Corrective
+SAMA-3-7,Change Management,Secure Change Control,Changes to production systems shall be authorized tested and documented before implementation,Preventive
+SAMA-3-8,Vulnerability Management,Vulnerability Management Process,Vulnerabilities shall be assessed prioritized remediated and monitored,Corrective
+SAMA-3-9,Cloud Security,Cloud Risk Management,Cloud services shall be assessed for regulatory data protection and outsourcing requirements before use,Governance
+SAMA-3-10,Asset Management,Technology Asset Management,Technology assets shall be inventoried classified and assigned accountable ownership,Preventive
