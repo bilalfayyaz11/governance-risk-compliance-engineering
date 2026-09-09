@@ -1,0 +1,227 @@
+system:
+  name: "Clinical BCI Neural Activity Decision-Support System"
+  description: >
+    AI-enabled clinical decision-support capability derived from a black-box
+    neural-network signal-classification model. The system analyzes brain-computer
+    interface signal features and flags anomalous neural activity for physician review.
+  intended_use: >
+    Support qualified clinicians by identifying potentially anomalous neural
+    activity that warrants additional human review.
+  prohibited_use: >
+    The system must not independently diagnose patients, initiate treatment,
+    deny care, or replace licensed clinical judgment.
+
+Govern:
+  roles:
+    ai_governance_lead:
+      responsibilities:
+        - Own AI risk governance decisions and escalation pathways
+        - Maintain the AI risk register and authorization evidence
+        - Coordinate residual-risk acceptance with the Authorizing Official
+    data_steward:
+      responsibilities:
+        - Maintain dataset provenance and lineage records
+        - Review data-quality and cohort-representation issues
+        - Approve changes to governed clinical data sources
+    clinical_sme:
+      responsibilities:
+        - Validate clinical relevance of outputs and thresholds
+        - Review foreseeable misuse and patient-safety impact
+        - Define human-in-the-loop operating requirements
+
+  policy_references:
+    - NIST AI Risk Management Framework
+    - NIST SP 800-53 Rev. 5
+    - NIST AI 600-1 supplemental practices where applicable
+    - Organizational clinical safety and privacy policies
+
+  accountability_structure:
+    ai_risk_owner: "AI Governance Lead"
+    data_accountability_owner: "Data Steward"
+    clinical_accountability_owner: "Clinical SME"
+    authorization_authority: "Authorizing Official"
+
+  governance_requirements:
+    - Material model changes require documented governance review
+    - High and critical residual risks require formal escalation
+    - Clinical deployment requires explicit human oversight
+    - Risk acceptance decisions must be documented and time-bound
+
+Map:
+  context_of_use:
+    environment: "Clinical decision-support setting"
+    users:
+      - Physicians
+      - Clinical specialists
+    system_role: >
+      Provide anomaly flags from BCI-derived signal patterns for human review,
+      not autonomous diagnosis or treatment.
+    decision_boundary: >
+      Final clinical interpretation and action remain the responsibility
+      of qualified healthcare personnel.
+
+  intended_use:
+    - Flag anomalous neural activity for physician review
+    - Prioritize cases requiring additional clinical investigation
+    - Provide supplemental evidence during clinical interpretation
+
+  foreseeable_misuse:
+    - Treating AI output as a definitive diagnosis
+    - Using outputs without independent clinical confirmation
+    - Applying the model to populations outside validated cohorts
+    - Using unsupported sensors or altered preprocessing pipelines
+
+  stakeholders:
+    patients:
+      impacts:
+        - Potential delayed or incorrect clinical intervention
+        - Privacy exposure of sensitive neural or health information
+        - Unequal model performance across demographic cohorts
+    clinicians:
+      impacts:
+        - Automation bias
+        - Reduced trust when model reasoning is not interpretable
+        - Increased workload from false-positive alerts
+    regulators:
+      impacts:
+        - Need for evidence of safety, accountability, and traceability
+        - Need for defensible residual-risk acceptance
+
+  assumptions_and_dependencies:
+    - Input signals originate from approved BCI acquisition devices
+    - Production preprocessing matches validated preprocessing
+    - Human review occurs before clinical action
+    - Training and validation datasets remain traceable
+
+Measure:
+  bias_metrics:
+    demographic_parity:
+      objective: >
+        Compare alert-rate differences across clinically relevant cohorts
+        as a screening indicator for potential disparity.
+      threshold: "Absolute alert-rate disparity <= 0.10"
+      frequency: "Monthly and after material retraining"
+
+    false_negative_rate_disparity:
+      objective: >
+        Measure subgroup differences in missed anomaly detection.
+      threshold: "Absolute subgroup FNR difference <= 0.05"
+      frequency: "Monthly and before deployment approval"
+
+    false_positive_rate_disparity:
+      objective: >
+        Detect cohorts receiving disproportionately high false-positive alerts.
+      threshold: "Absolute subgroup FPR difference <= 0.05"
+      frequency: "Monthly and before deployment approval"
+
+  explainability_metrics:
+    shap_coverage:
+      objective: >
+        Produce feature-attribution evidence for model outputs selected
+        for clinical review where the model architecture supports attribution.
+      threshold: ">= 95% of reviewed alerts have generated attribution evidence"
+      frequency: "Continuous measurement with monthly reporting"
+
+    clinician_explanation_acceptance:
+      objective: >
+        Measure whether clinicians consider available model explanations
+        sufficient to support informed review.
+      threshold: ">= 85% acceptance during structured validation"
+      frequency: "Quarterly"
+
+  performance_metrics:
+    sensitivity:
+      threshold: ">= 0.90 on approved validation cohorts"
+      frequency: "Monthly"
+
+    specificity:
+      threshold: ">= 0.85 on approved validation cohorts"
+      frequency: "Monthly"
+
+    performance_drift:
+      objective: >
+        Compare production performance and feature distributions against
+        the authorized baseline.
+      threshold: >
+        Trigger investigation when validated performance decreases by more
+        than 5 percentage points or material feature-distribution drift occurs.
+      frequency: "Continuous monitoring with monthly review"
+
+  evidence_requirements:
+    - Cohort-level validation results
+    - Model evaluation reports
+    - Drift-monitoring results
+    - Explainability evidence
+    - Data-quality assessments
+    - Bias and subgroup-performance reports
+
+Manage:
+  risk_prioritization:
+    scoring_method: "Likelihood x Impact"
+    likelihood_scale: "1-5"
+    impact_scale: "1-5"
+    thresholds:
+      critical: "20-25"
+      high: "15-19"
+      medium: "8-14"
+      low: "1-7"
+
+  response_triggers:
+    retrain:
+      - Sustained performance drift exceeds authorized thresholds
+      - Cohort-level disparity exceeds defined tolerance
+      - Approved data distribution materially changes
+
+    rollback:
+      - New model version produces unacceptable clinical performance
+      - Critical safety defect is identified after deployment
+      - Validation evidence is incomplete or invalidated
+
+    human_in_loop_override:
+      - Model confidence is below validated threshold
+      - Input signal quality fails acceptance criteria
+      - Clinician determines output conflicts with clinical evidence
+      - Patient population falls outside validated use conditions
+
+  treatment_options:
+    mitigate:
+      - Improve dataset representativeness
+      - Add monitoring and validation controls
+      - Strengthen human oversight
+      - Harden input-validation mechanisms
+
+    accept:
+      - Residual risk is explicitly documented
+      - Compensating controls are active
+      - Authorizing Official approves acceptance
+      - Acceptance has a review or expiration date
+
+    avoid:
+      - Suspend use for unsupported patient populations
+      - Block deployment when critical validation evidence is absent
+
+    transfer:
+      - Apply supplier contractual obligations where third-party components create risk
+      - Require supplier assurance evidence and remediation commitments
+
+  monitoring:
+    continuous:
+      - Data-quality anomalies
+      - Input-distribution drift
+      - Security events affecting the inference pipeline
+
+    monthly:
+      - Model performance
+      - Cohort-level bias metrics
+      - Open high and critical AI risks
+
+    quarterly:
+      - Explainability adequacy
+      - Clinical oversight effectiveness
+      - Supplier provenance status
+
+    event_driven:
+      - Model retraining
+      - New dataset introduction
+      - Material architecture changes
+      - Clinical incident or significant model failure

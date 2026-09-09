@@ -1,0 +1,22 @@
+# Python runtime
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment
+.env
+.env.*
+
+# Credentials and private keys
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Large external reference repositories
+oscal-content/

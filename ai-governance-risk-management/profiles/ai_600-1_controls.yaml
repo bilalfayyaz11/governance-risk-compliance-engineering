@@ -1,0 +1,58 @@
+document:
+  title: "AI 600-1 Supplemental Practice Mapping"
+  source: "NIST AI 600-1 Generative AI Profile"
+  applicability_note: >
+    NIST AI 600-1 is a Generative AI Profile. This clinical BCI classifier is
+    not a generative AI system. The entries below are therefore used only as
+    supplemental AI-risk practices where the underlying risk-management concept
+    is relevant. They are not represented as classifier-specific mandatory controls.
+
+practices:
+
+  AI600-SUP-01:
+    risk_area: "Harmful Bias and Homogenization"
+    applicable_concept: >
+      Evaluate differences in system behavior and performance across relevant
+      population groups and use those results in risk-management decisions.
+
+  AI600-SUP-02:
+    risk_area: "Human-AI Configuration"
+    applicable_concept: >
+      Define human oversight, decision boundaries, escalation mechanisms,
+      and limitations on reliance on AI-generated or AI-derived outputs.
+
+  AI600-SUP-03:
+    risk_area: "Information Security"
+    applicable_concept: >
+      Evaluate AI-specific attack surfaces, system integrity, adversarial inputs,
+      and security monitoring across the AI lifecycle.
+
+  AI600-SUP-04:
+    risk_area: "Data Privacy"
+    applicable_concept: >
+      Evaluate privacy risks associated with sensitive training, inference,
+      and model-derived information.
+
+  AI600-SUP-05:
+    risk_area: "Value Chain and Component Integration"
+    applicable_concept: >
+      Assess third-party AI components, supplier provenance, dependencies,
+      documentation, and downstream integration risk.
+
+  AI600-SUP-06:
+    risk_area: "Measurement and Monitoring"
+    applicable_concept: >
+      Measure model performance, emerging risks, failure modes, and changing
+      operating conditions throughout deployment and monitoring.
+
+  AI600-SUP-07:
+    risk_area: "Governance and Accountability"
+    applicable_concept: >
+      Assign responsibility for AI risk decisions, limitations, risk acceptance,
+      and lifecycle change management.
+
+  AI600-SUP-08:
+    risk_area: "Transparency and Explainability"
+    applicable_concept: >
+      Provide decision-makers and affected users with sufficient information
+      about model limitations, uncertainty, and available explanation evidence.
