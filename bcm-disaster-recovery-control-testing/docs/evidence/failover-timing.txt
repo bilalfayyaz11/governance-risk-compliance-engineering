@@ -1,0 +1,4 @@
+Failover start: 2026-09-09T19:05:02Z
+Failover end: 2026-09-09T19:05:05Z
+Actual RTO seconds: 3
+Status: success

@@ -1,0 +1,14 @@
+restic-password
+*.db
+*.db-shm
+*.db-wal
+backup.log
+replicate.log
+failover.log
+transactions.log
+restic-repo/
+backups-primary/
+backups-secondary/
+restic-restore/
+__pycache__/
+*.pyc

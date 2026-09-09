@@ -1,0 +1,46 @@
+Technical Failover Test
+
+Disaster start:
+2026-09-09T19:05:02Z
+
+Target RTO:
+900 seconds
+
+Actual RTO:
+3 seconds
+
+RTO result:
+PASS
+
+Target RPO:
+300 seconds
+
+Actual RPO:
+unknown seconds
+
+RPO result:
+FAIL
+
+Primary baseline transaction count:
+0
+
+Recovered transaction count:
+0
+
+Primary baseline max transaction ID:
+0
+
+Recovered max transaction ID:
+0
+
+Primary checksum:
+65f9a01d4290d2ffbc027e9b8c03c57dd8742d70c4c8a99c8441f145e119aa9f
+
+Recovered checksum:
+65f9a01d4290d2ffbc027e9b8c03c57dd8742d70c4c8a99c8441f145e119aa9f
+
+Failover HTTP response:
+200
+
+Restic restore duration:
+0 seconds
