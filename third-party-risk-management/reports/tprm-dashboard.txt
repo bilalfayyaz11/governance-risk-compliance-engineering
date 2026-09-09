@@ -1,0 +1,21 @@
+======================================================================
+THIRD-PARTY RISK MANAGEMENT DASHBOARD
+======================================================================
+
+VENDOR RISK SUMMARY
+----------------------------------------------------------------------
+High       vendors=2   avg_score=1.45
+Medium     vendors=1   avg_score=2.73
+Low        vendors=1   avg_score=3.63
+
+VENDOR REGISTER
+----------------------------------------------------------------------
+Delta Tech           High       score=1.1  next=2027-03-10
+Gamma Services       High       score=1.79 next=2027-03-10
+Beta Cloud           Medium     score=2.73 next=2027-09-09
+Alpha Systems        Low        score=3.63 next=2028-09-08
+
+OPEN RISK EXCEPTIONS
+----------------------------------------------------------------------
+Critical   Delta Tech           Privileged accounts do not enforce MFA (expires 2026-12-08)
+High       Gamma Services       Annual incident response exercise not completed (expires 2027-03-08)

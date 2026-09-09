@@ -1,0 +1,22 @@
+# Runtime databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Python runtime
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and environment configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
