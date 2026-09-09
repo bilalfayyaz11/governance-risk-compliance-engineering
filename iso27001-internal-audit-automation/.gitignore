@@ -1,0 +1,21 @@
+# Python runtime
+__pycache__/
+*.py[cod]
+audit-env/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Editor files
+*.swp
+*.swo

@@ -1,0 +1,3 @@
+Finding_ID,Severity,Corrective Action,Owner,Target Date,Status
+F001,Minor,"Review applicable local accounts, update the approved Linux password-aging baseline, and remediate PASS_MAX_DAYS where local password authentication remains in use.",Cloud Infrastructure Lead,2026-09-30,Open
+F002,Observation,Establish periodic sampling of security-awareness completion records and maintain auditable evidence of refresher completion and overdue follow-up.,HR Manager,2026-10-15,Open

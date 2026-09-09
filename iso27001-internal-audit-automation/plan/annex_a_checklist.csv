@@ -1,0 +1,16 @@
+Control_ID,Control_Name,Category,Status,Evidence_Ref
+A.5.1,Policies for information security,Organizational,Not Tested,
+A.5.7,Threat intelligence,Organizational,Not Tested,
+A.5.15,Access control,Organizational,Not Tested,
+A.5.18,Access rights,Organizational,Not Tested,
+A.5.23,Information security for use of cloud services,Organizational,Not Tested,
+A.5.24,Information security incident management planning and preparation,Organizational,Not Tested,
+A.5.30,ICT readiness for business continuity,Organizational,Not Tested,
+A.6.3,Information security awareness education and training,People,Partially Tested,evidence/interview_02.md
+A.6.5,Responsibilities after termination or change of employment,People,Not Tested,
+A.7.4,Physical security monitoring,Physical,Not Tested,
+A.8.2,Privileged access rights,Technological,Not Tested,
+A.8.5,Secure authentication,Technological,Not Tested,
+A.8.9,Configuration management,Technological,Nonconformity,evidence/A8_9_password_policy_evidence.txt
+A.8.16,Monitoring activities,Technological,Not Tested,
+A.8.23,Web filtering,Technological,Not Tested,

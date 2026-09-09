@@ -1,0 +1,3 @@
+Finding_ID,Date,Control_ID,Description,Severity,Evidence_Ref,Recommendation
+F001,2026-09-09,A.8.9,Password maximum age exceeds the organizational policy limit of 90 days.,Minor,../evidence/A8_9_password_policy_evidence.txt,Review applicable local accounts and update the approved password-aging configuration so PASS_MAX_DAYS does not exceed 90 days where local password authentication is used.
+F002,2026-09-09,A.6.3,"Awareness activities are described and tracked through HR processes, but independent sample evidence of annual refresher completion was not available during this simulated audit.",Observation,evidence/interview_02.md,Introduce periodic evidence sampling and an auditable completion dashboard for information security awareness activities.
