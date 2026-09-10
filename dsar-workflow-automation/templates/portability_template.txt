@@ -1,0 +1,18 @@
+DATA PORTABILITY REQUEST
+
+Requester Name: {{subject_name}}
+Requester Email: {{subject_email}}
+Request ID: {{request_id}}
+Request Date: {{request_date}}
+Verification Status: {{verification_status}}
+Data Scope: {{data_scope}}
+Data Format: {{data_format}}
+Transfer Method: {{transfer_method}}
+Bundle File: {{bundle_filename}}
+SHA-256 Checksum: {{checksum}}
+Response Deadline: {{response_deadline}}
+Completion Date: {{completion_date}}
+
+Delivery Notes:
+The portability package should be provided in a structured, commonly used,
+machine-readable format. For this workflow the expected format is JSON.

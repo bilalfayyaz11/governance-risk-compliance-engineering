@@ -1,0 +1,17 @@
+DATA SUBJECT ERASURE REQUEST
+
+Requester Name: {{subject_name}}
+Requester Email: {{subject_email}}
+Request ID: {{request_id}}
+Request Date: {{request_date}}
+Verification Status: {{verification_status}}
+Erasure Scope: {{erasure_scope}}
+Retention Exception / Legal Basis: {{retention_legal_basis}}
+Systems Affected: {{systems_affected}}
+Deletion Completion Date: {{deletion_completion_date}}
+Response Deadline: {{response_deadline}}
+Notes / Exceptions: {{notes}}
+
+Outcome:
+Records within the approved erasure scope should be deleted or anonymized unless
+a documented legal, regulatory, contractual, or security retention requirement applies.

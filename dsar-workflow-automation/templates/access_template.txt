@@ -1,0 +1,16 @@
+DATA SUBJECT ACCESS REQUEST
+
+Requester Name: {{subject_name}}
+Requester Email: {{subject_email}}
+Request ID: {{request_id}}
+Request Date: {{request_date}}
+Verification Status: {{verification_status}}
+Scope of Data Requested: {{data_scope}}
+Systems / Data Sources Searched: {{systems_searched}}
+Response Deadline: {{response_deadline}}
+Response Completion Date: {{completion_date}}
+Notes / Exceptions: {{notes}}
+
+Requested Right:
+Access to personal data held about the requester, including relevant categories,
+sources, recipients, purposes of processing, and retention information where applicable.
