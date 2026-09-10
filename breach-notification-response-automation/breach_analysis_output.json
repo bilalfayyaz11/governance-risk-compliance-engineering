@@ -1,0 +1,35 @@
+{
+  "affected_subjects_count": 4,
+  "unique_emails_detected": 4,
+  "unique_national_ids_detected": 4,
+  "data_categories": [
+    "Email addresses",
+    "Government-issued national identifiers"
+  ],
+  "special_category_data_present": false,
+  "source_ips": [
+    "203.0.113.77"
+  ],
+  "sensitive_endpoints": [
+    "/export/customers.csv"
+  ],
+  "sessions": [
+    "exfil-session-001"
+  ],
+  "maximum_reported_records_per_export": 650,
+  "primary_breach_alert_count": 4,
+  "first_seen": "2026-09-10T21:17:43.961000+00:00",
+  "last_seen": "2026-09-10T21:17:47.961000+00:00",
+  "exposure_duration_seconds": 4,
+  "risk_score": 9,
+  "risk_level": "HIGH",
+  "risk_reasons": [
+    "Government-issued identifiers were exposed (+3)",
+    "Contact identifiers were exposed (+1)",
+    "Bulk export involved at least 500 records (+2)",
+    "Unauthorized external-source access indicator present (+2)",
+    "Repeated exfiltration activity detected (+1)"
+  ],
+  "supervisory_authority_notification_required": true,
+  "data_subject_notification_required": true
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log.tmp
+*.pid
+*.token
+*.secret
+.env
