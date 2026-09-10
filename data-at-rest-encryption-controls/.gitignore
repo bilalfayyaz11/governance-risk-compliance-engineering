@@ -1,0 +1,8 @@
+*.key
+*.pem
+*.token
+*.secret
+db_disk.img
+vault-data/
+vault-dev.log
+*.pid
