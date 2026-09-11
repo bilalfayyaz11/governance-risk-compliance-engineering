@@ -1,0 +1,20 @@
+FINTECH PERSONAL DATA FLOW REPORT
+========================================================================
+
+CLASSIFICATION SUMMARY
+------------------------------
+Critical: 1
+Sensitive: 2
+Standard: 5
+
+PERSONAL DATA INVENTORY
+------------------------------------------------------------------------
+       data_element            source_system           storage_location                              processing_purpose  is_emirates_id  retention_days classification
+ Emirates ID number             KYC Platform     Encrypted KYC Database Identity verification and regulatory compliance            True            2555       critical
+          Full name      Customer Onboarding          Customer Database                          Account administration           False            2555       standard
+       Phone number      Customer Onboarding          Customer Database       Authentication and customer communication           False            2555       standard
+Transaction history         Payment Platform       Transaction Database         Payment processing and fraud monitoring           False            3650      sensitive
+         IP address              API Gateway         Security Log Store         Fraud detection and security monitoring           False             365       standard
+      KYC documents             KYC Platform   Encrypted Document Store Identity verification and regulatory compliance           False            2555       standard
+Bank account number         Payment Platform Encrypted Payment Database               Settlement and payment processing           False            2555      sensitive
+ Device fingerprint Fraud Detection Platform    Risk Analytics Database           Fraud prevention and account security           False             365       standard

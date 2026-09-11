@@ -1,0 +1,9 @@
+data_element,source_system,storage_location,processing_purpose,is_emirates_id,retention_days
+Emirates ID number,KYC Platform,Encrypted KYC Database,Identity verification and regulatory compliance,True,2555
+Full name,Customer Onboarding,Customer Database,Account administration,False,2555
+Phone number,Customer Onboarding,Customer Database,Authentication and customer communication,False,2555
+Transaction history,Payment Platform,Transaction Database,Payment processing and fraud monitoring,False,3650
+IP address,API Gateway,Security Log Store,Fraud detection and security monitoring,False,365
+KYC documents,KYC Platform,Encrypted Document Store,Identity verification and regulatory compliance,False,2555
+Bank account number,Payment Platform,Encrypted Payment Database,Settlement and payment processing,False,2555
+Device fingerprint,Fraud Detection Platform,Risk Analytics Database,Fraud prevention and account security,False,365

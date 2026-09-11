@@ -1,0 +1,16 @@
+[
+  {
+    "consent_id": "fac7d261-b767-423b-99f8-d7db2201895f",
+    "user_id": "user123",
+    "purpose": "marketing_emails",
+    "granted": true,
+    "timestamp": "2026-09-11T21:01:27.925762+00:00"
+  },
+  {
+    "consent_id": "64361a6a-b786-4a26-b903-2b98b61d784e",
+    "user_id": "user123",
+    "purpose": "marketing_emails",
+    "granted": true,
+    "timestamp": "2026-09-11T21:03:13.873736+00:00"
+  }
+]
