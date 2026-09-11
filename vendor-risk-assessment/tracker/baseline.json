@@ -1,0 +1,26 @@
+{
+  "C1": {
+    "required_keyword": "MFA",
+    "severity": "High"
+  },
+  "C2": {
+    "required_keyword": "AES-256",
+    "severity": "High"
+  },
+  "C3": {
+    "required_keyword": "TLS",
+    "severity": "High"
+  },
+  "C4": {
+    "required_keyword": "location",
+    "severity": "Critical"
+  },
+  "C6": {
+    "required_keyword": "hours",
+    "severity": "Medium"
+  },
+  "C7": {
+    "required_keyword": "30 days",
+    "severity": "High"
+  }
+}

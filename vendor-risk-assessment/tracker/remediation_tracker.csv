@@ -1,0 +1,3 @@
+control_id,issue,severity,owner,due_date,status
+C4,Vendor response does not meet baseline for Sub-processing: Do you use sub-processors? List all with location.,Critical,Privacy Counsel,2026-09-18,Open
+C7,Missing vendor response/evidence for Data Deletion: Can you certify deletion within 30 days of contract end?,High,Vendor Risk Manager,2026-09-25,Open

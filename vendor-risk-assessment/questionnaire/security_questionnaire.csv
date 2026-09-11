@@ -1,0 +1,9 @@
+control_id,control_domain,question,response,evidence_link
+C1,Access Control,Do you enforce MFA for all admin access?,,
+C2,Encryption,Is data encrypted at rest using AES-256 or equivalent?,,
+C3,Encryption,Is data encrypted in transit (TLS 1.2+)?,,
+C4,Sub-processing,Do you use sub-processors? List all with location.,,
+C5,Data Residency,Where is data physically stored/processed?,,
+C6,Breach Notification,What is your breach notification SLA (hours)?,,
+C7,Data Deletion,Can you certify deletion within 30 days of contract end?,,
+C8,Audit Rights,Do you permit client audits or independent assessments?,,

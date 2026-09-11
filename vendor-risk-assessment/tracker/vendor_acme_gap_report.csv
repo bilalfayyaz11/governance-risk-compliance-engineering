@@ -1,0 +1,9 @@
+control_id,control_domain,question,response,evidence_link,status,severity
+C1,Access Control,Do you enforce MFA for all admin access?,"Yes, MFA enforced for all privileged administrator accounts",https://evidence.mock/acme/mfa-policy,PASS,High
+C2,Encryption,Is data encrypted at rest using AES-256 or equivalent?,"Yes, production storage uses AES-256 encryption",https://evidence.mock/acme/encryption-at-rest,PASS,High
+C3,Encryption,Is data encrypted in transit (TLS 1.2+)?,"Yes, TLS 1.2 and TLS 1.3 are enforced",https://evidence.mock/acme/tls-standard,PASS,High
+C4,Sub-processing,Do you use sub-processors? List all with location.,"Yes - AWS (Ireland), SubProcessor-X (India)",https://evidence.mock/acme/subprocessor-list,FAIL,Critical
+C5,Data Residency,Where is data physically stored/processed?,Primary application data is stored in AWS Ireland; support processing may occur in India,https://evidence.mock/acme/data-hosting,N/A,N/A
+C6,Breach Notification,What is your breach notification SLA (hours)?,Initial notification within 24 hours of confirmed incident,https://evidence.mock/acme/incident-response,PASS,Medium
+C7,Data Deletion,Can you certify deletion within 30 days of contract end?,,,MISSING,High
+C8,Audit Rights,Do you permit client audits or independent assessments?,Independent assessments are permitted annually; customer audit rights subject to reasonable notice,https://evidence.mock/acme/audit-policy,N/A,N/A
