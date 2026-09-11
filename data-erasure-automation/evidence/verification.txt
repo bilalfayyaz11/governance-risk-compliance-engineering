@@ -1,0 +1,24 @@
+DATA ERASURE WORKFLOW VERIFICATION
+==================================
+
+Live user rows:
+0
+
+Order rows:
+0
+
+Support ticket rows:
+0
+
+Backup state:
+1|anon_1@erased.local|REDACTED|true
+
+Audit actions:
+SOFT_DELETE|users
+HARD_DELETE|orders
+HARD_DELETE|support_tickets
+HARD_DELETE|users
+ANONYMIZE_BACKUP|users_backup
+
+Certificate raw-email check:
+PASS: raw email absent
