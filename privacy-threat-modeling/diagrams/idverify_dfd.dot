@@ -1,0 +1,81 @@
+digraph IDVerify {
+    rankdir=LR;
+    graph [
+        label="IDVerify Privacy Data Flow Diagram",
+        labelloc=t,
+        fontsize=20
+    ];
+
+    node [
+        shape=box,
+        style="rounded",
+        fontsize=10
+    ];
+
+    subgraph cluster_backend {
+        label="Trust Boundary 1: Fintech Backend";
+        style=dashed;
+
+        gateway [label="API Gateway"];
+        idverify [label="IDVerify Service"];
+        postgres [
+            label="PostgreSQL Datastore",
+            shape=cylinder
+        ];
+        audit [label="Audit Logging Service"];
+        admin [label="Admin Dashboard"];
+    }
+
+    subgraph cluster_thirdparty {
+        label="Trust Boundary 2: Third-Party ML Provider";
+        style=dashed;
+
+        ocr [
+            label="Third-Party OCR / Face-Match API"
+        ];
+    }
+
+    mobile [
+        label="Mobile Client"
+    ];
+
+    mobile -> gateway [
+        label="ID image + selfie"
+    ];
+
+    gateway -> idverify [
+        label="Verification request\n+ session token"
+    ];
+
+    idverify -> ocr [
+        label="ID image + selfie\n(biometric processing)"
+    ];
+
+    ocr -> idverify [
+        label="OCR fields +\nface-match score"
+    ];
+
+    idverify -> postgres [
+        label="Extracted PII +\nverification status"
+    ];
+
+    idverify -> audit [
+        label="Audit event +\nsubject/session reference"
+    ];
+
+    postgres -> admin [
+        label="Flagged verification case"
+    ];
+
+    admin -> idverify [
+        label="Review decision +\nofficer identity"
+    ];
+
+    idverify -> gateway [
+        label="Verification result"
+    ];
+
+    gateway -> mobile [
+        label="Approved / rejected /\nmanual review"
+    ];
+}
