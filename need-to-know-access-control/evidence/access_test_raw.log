@@ -1,0 +1,45 @@
+===== finance_role | SELECT allowed finance columns =====
+ emp_id | full_name  | department | salary  
+--------+------------+------------+---------
+      2 | Sara Ahmed | Finance    | 6000.00
+(1 row)
+
+===== finance_role | SELECT ssn =====
+ERROR:  permission denied for table employee_records
+
+===== finance_role | SELECT HR rows =====
+ emp_id | full_name | department | salary 
+--------+-----------+------------+--------
+(0 rows)
+
+===== audit_role | SELECT audit columns =====
+ emp_id | department | audit_flag 
+--------+------------+------------
+      2 | Finance    | t
+      3 | IT         | t
+(2 rows)
+
+===== audit_role | SELECT salary =====
+ERROR:  permission denied for table employee_records
+
+===== audit_role | SELECT non-flagged rows =====
+ emp_id | department | audit_flag 
+--------+------------+------------
+(0 rows)
+
+===== hr_role | SELECT all columns =====
+ emp_id |  full_name  | department | salary  |     ssn     | audit_flag 
+--------+-------------+------------+---------+-------------+------------
+      1 | Ali Hassan  | HR         | 5000.00 | 123-45-6789 | f
+      2 | Sara Ahmed  | Finance    | 6000.00 | 987-65-4321 | t
+      3 | Omar Khalid | IT         | 5500.00 | 555-55-5555 | t
+(3 rows)
+
+===== hr_role | SELECT ssn =====
+     ssn     
+-------------
+ 123-45-6789
+ 987-65-4321
+ 555-55-5555
+(3 rows)
+

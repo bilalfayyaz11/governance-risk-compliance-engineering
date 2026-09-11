@@ -1,0 +1,9 @@
+role,query_type,expected_result,actual_result,status
+"finance_role","SELECT allowed finance columns","Allowed","Allowed","PASS"
+"finance_role","SELECT ssn","Denied","Denied","PASS"
+"finance_role","SELECT HR rows","Allowed","Allowed","PASS"
+"audit_role","SELECT audit columns","Allowed","Allowed","PASS"
+"audit_role","SELECT salary","Denied","Denied","PASS"
+"audit_role","SELECT non-flagged rows","Allowed","Allowed","PASS"
+"hr_role","SELECT all columns","Allowed","Allowed","PASS"
+"hr_role","SELECT ssn","Allowed","Allowed","PASS"

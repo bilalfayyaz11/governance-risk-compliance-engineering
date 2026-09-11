@@ -1,0 +1,32 @@
+	    'hr_role',
+	    'finance_role',
+	    'audit_role'
+2026-09-11 20:10:27.387 UTC [7967] finance_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:10:27.387 UTC [7967] finance_role@agency_records STATEMENT:  
+2026-09-11 20:10:27.775 UTC [7996] audit_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:10:27.775 UTC [7996] audit_role@agency_records STATEMENT:  
+2026-09-11 20:10:29.260 UTC [8071] finance_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:10:29.260 UTC [8071] finance_role@agency_records STATEMENT:  
+2026-09-11 20:10:29.375 UTC [8076] audit_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:10:29.375 UTC [8076] audit_role@agency_records STATEMENT:  
+2026-09-11 20:12:53.546 UTC [8448] postgres@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,VIEW,pg_catalog.pg_settings,"
+2026-09-11 20:12:53.671 UTC [8470] finance_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
+2026-09-11 20:12:53.766 UTC [8478] finance_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:12:53.766 UTC [8478] finance_role@agency_records STATEMENT:  
+2026-09-11 20:12:53.861 UTC [8488] audit_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
+2026-09-11 20:12:53.949 UTC [8496] audit_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:12:53.949 UTC [8496] audit_role@agency_records STATEMENT:  
+2026-09-11 20:12:54.042 UTC [8506] hr_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
+2026-09-11 20:14:00.449 UTC [8675] finance_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"SELECT emp_id, full_name, department, salary FROM employee_records;",<not logged>
+2026-09-11 20:14:00.533 UTC [8678] finance_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:14:00.533 UTC [8678] finance_role@agency_records STATEMENT:  SELECT ssn FROM employee_records;
+2026-09-11 20:14:00.613 UTC [8681] finance_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"SELECT emp_id, full_name, department, salary FROM employee_records WHERE department='HR';",<not logged>
+2026-09-11 20:14:00.695 UTC [8684] audit_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"SELECT emp_id, department, audit_flag FROM employee_records;",<not logged>
+2026-09-11 20:14:00.779 UTC [8687] audit_role@agency_records ERROR:  permission denied for table employee_records
+2026-09-11 20:14:00.779 UTC [8687] audit_role@agency_records STATEMENT:  SELECT salary FROM employee_records;
+2026-09-11 20:14:00.864 UTC [8690] audit_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"SELECT emp_id, department, audit_flag FROM employee_records WHERE audit_flag=false;",<not logged>
+2026-09-11 20:14:00.946 UTC [8693] hr_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,SELECT * FROM employee_records;,<not logged>
+2026-09-11 20:14:01.035 UTC [8696] hr_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,SELECT ssn FROM employee_records;,<not logged>
+2026-09-11 20:14:01.130 UTC [8700] finance_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
+2026-09-11 20:14:01.208 UTC [8702] audit_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
+2026-09-11 20:14:01.292 UTC [8704] hr_role@agency_records LOG:  AUDIT: SESSION,1,1,READ,SELECT,TABLE,public.employee_records,"
