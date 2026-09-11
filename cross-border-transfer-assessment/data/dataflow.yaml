@@ -1,0 +1,107 @@
+assessment_date: "2026-09-12"
+
+exporter:
+  entity: "Dubai HR Controller"
+  country: "United Arab Emirates"
+  city: "Dubai"
+  role: "Controller"
+
+importer:
+  entity: "Frankfurt Payroll Processor"
+  country: "Germany"
+  city: "Frankfurt"
+  role: "Processor"
+
+data_categories:
+  - field: "full_name"
+    description: "Employee full legal name"
+    tier: "Confidential"
+
+  - field: "work_email"
+    description: "Employee corporate email address"
+    tier: "Internal"
+
+  - field: "emirates_id"
+    description: "Government-issued UAE identity number"
+    tier: "Confidential"
+
+  - field: "salary"
+    description: "Monthly compensation"
+    tier: "Confidential"
+
+  - field: "bank_iban"
+    description: "Employee bank account identifier used for payroll"
+    tier: "Confidential"
+
+  - field: "performance_review"
+    description: "Manager performance evaluation"
+    tier: "Confidential"
+
+  - field: "health_accommodation"
+    description: "Workplace accommodation information revealing health status"
+    tier: "Special Category"
+
+subjects:
+  - "Employees"
+  - "Former employees where payroll retention remains necessary"
+
+purpose:
+  primary: "Payroll processing"
+  secondary:
+    - "Salary payment administration"
+    - "Statutory payroll reporting"
+    - "Payroll reconciliation"
+
+transfer_frequency:
+  type: "Recurring"
+  schedule: "Monthly payroll cycle"
+  ad_hoc: "Corrections may be transferred as required"
+
+locations:
+  source:
+    city: "Dubai"
+    country: "United Arab Emirates"
+    system: "UAE HR Information System"
+    storage: "UAE-hosted primary HR database"
+
+  destination:
+    city: "Frankfurt"
+    country: "Germany"
+    system: "EU Payroll Processing Platform"
+    storage: "Frankfurt payroll database"
+
+sub_processors:
+  - entity: "Riyadh Payroll Support Services"
+    city: "Riyadh"
+    country: "Saudi Arabia"
+    role: "Sub-processor"
+    purpose: "Regional payroll support and exception handling"
+    data_received:
+      - "full_name"
+      - "work_email"
+      - "salary"
+      - "bank_iban"
+      - "emirates_id"
+
+transfer_channels:
+  dubai_to_frankfurt:
+    protocol: "TLS 1.3"
+    mechanism_context: "Inbound transfer into the EEA"
+    notes: "Not treated as an EEA Chapter V export solely because UAE lacks adequacy."
+
+  frankfurt_to_riyadh:
+    protocol: "TLS 1.3"
+    mechanism_context: "Onward transfer from EEA processor to Saudi sub-processor"
+    notes: "Requires GDPR Chapter V safeguard analysis."
+
+retention:
+  frankfurt: "Payroll data retained according to contractual and statutory payroll requirements"
+  riyadh: "Sub-processor retains only for approved support period"
+
+security_controls:
+  - "TLS 1.3 in transit"
+  - "Encryption at rest"
+  - "Role-based access control"
+  - "Access logging"
+  - "Least privilege"
+  - "Data minimization"

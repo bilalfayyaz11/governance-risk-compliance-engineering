@@ -1,0 +1,98 @@
+{
+  "assessment_date": "2026-09-12",
+  "data_profile": {
+    "special_category_data_present": true,
+    "sensitivity_tiers": {
+      "full_name": "Confidential",
+      "work_email": "Internal",
+      "emirates_id": "Confidential",
+      "salary": "Confidential",
+      "bank_iban": "Confidential",
+      "performance_review": "Confidential",
+      "health_accommodation": "Special Category"
+    }
+  },
+  "transfer_legs": {
+    "dubai_to_frankfurt": {
+      "route": "Dubai -> Frankfurt",
+      "roles": "Controller -> Processor",
+      "gdpr": {
+        "country": "Germany",
+        "adequate": true,
+        "basis": "Destination is within the EU/EEA. GDPR Chapter V third-country transfer safeguards are not triggered solely by this destination.",
+        "classification": "EEA destination"
+      },
+      "selected_mechanism": "No Chapter V Mechanism Required",
+      "chapter_v_triggered": false,
+      "reason": "The destination is within the EEA. UAE non-adequacy does not by itself turn an inbound UAE-to-Germany transfer into a GDPR Chapter V export.",
+      "ksa_pdpl_article_29": {
+        "applicable": false,
+        "origin_country": "United Arab Emirates",
+        "destination_country": "Germany",
+        "reason": "Saudi PDPL Article 29 outbound-transfer rules are not directly triggered because this transfer does not originate in Saudi Arabia.",
+        "risk_assessment_required": false,
+        "safeguards_required": false,
+        "sensitive_data_present": true
+      }
+    },
+    "frankfurt_to_riyadh": {
+      "route": "Frankfurt -> Riyadh",
+      "roles": "Processor -> Sub-processor",
+      "gdpr": {
+        "country": "Saudi Arabia",
+        "adequate": false,
+        "basis": "No European Commission Article 45 adequacy decision identified as of 2026-09-12.",
+        "classification": "Non-adequate third country"
+      },
+      "selected_mechanism": "SCC Module 3 Required + TIA",
+      "chapter_v_triggered": true,
+      "heightened_scrutiny": true,
+      "ksa_pdpl_article_29": {
+        "applicable": false,
+        "origin_country": "Germany",
+        "destination_country": "Saudi Arabia",
+        "reason": "Saudi PDPL Article 29 outbound-transfer rules are not directly triggered because this transfer does not originate in Saudi Arabia.",
+        "risk_assessment_required": false,
+        "safeguards_required": false,
+        "sensitive_data_present": true
+      }
+    }
+  },
+  "ksa_pdpl_outbound_test_case": {
+    "route": "Riyadh -> Frankfurt",
+    "purpose": "Exercise the Saudi Article 29 outbound transfer branch correctly.",
+    "result": {
+      "applicable": true,
+      "origin_country": "Saudi Arabia",
+      "destination_country": "Germany",
+      "reason": "Saudi-origin personal data is transferred outside the Kingdom, so Article 29 and the transfer regulation must be assessed.",
+      "risk_assessment_required": true,
+      "safeguards_required": true,
+      "sensitive_data_present": true,
+      "conditions": [
+        "Transfer must not prejudice national security or the vital interests of the Kingdom.",
+        "Destination protection must be assessed against Saudi transfer requirements.",
+        "Transfer must be limited to the minimum personal data necessary for the stated purpose.",
+        "Appropriate safeguards must be documented where required.",
+        "A transfer risk assessment is required for continuous or large-scale transfers of sensitive data."
+      ]
+    }
+  },
+  "triggered_obligations": [
+    "Use an Article 46 safeguard for Frankfurt-to-Riyadh transfer.",
+    "Use SCC Module 3 for the processor-to-sub-processor transfer configuration.",
+    "Conduct and document a Transfer Impact Assessment.",
+    "Assess destination-country laws and public authority access under SCC Clause 14.",
+    "Evaluate supplementary technical, contractual, and organizational measures.",
+    "Apply heightened scrutiny because health accommodation data constitutes GDPR Article 9 special-category data.",
+    "Apply stronger data minimization and technical protection to special-category data."
+  ],
+  "legal_logic_notes": [
+    "Saudi Arabia is not on the European Commission adequacy list as of the assessment date.",
+    "The UAE is not on the European Commission adequacy list as of the assessment date.",
+    "UAE adequacy status is not the deciding factor for Dubai-to-Frankfurt because Germany is an EEA destination.",
+    "Frankfurt-to-Riyadh is the relevant GDPR Chapter V onward transfer.",
+    "For a processor-to-sub-processor configuration, Commission Decision 2021/914 Module 3 is the appropriate SCC module in this scenario.",
+    "Saudi PDPL Article 29 addresses transfers from Saudi Arabia to destinations outside the Kingdom; it is not an outbound-transfer rule for the incoming Frankfurt-to-Riyadh leg."
+  ]
+}
