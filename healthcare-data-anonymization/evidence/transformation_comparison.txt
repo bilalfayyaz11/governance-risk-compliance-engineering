@@ -1,0 +1,29 @@
+Transformation comparison
+=========================
+
+OPTIMAL NODE
+transformation = [1, 4, 0, 3, 3]
+total generalization level = 11
+lowest loss score = 0.5747544504920252
+highest loss score = 0.5747544504920252
+suppression rate = 0.0%
+highest sample risk = 1.5625%
+prosecutor risk = 1.5625%
+journalist risk = 1.5625%
+marketer risk = 1.3333333333333335%
+
+COMPARISON NODE
+transformation = [1, 4, 1, 3, 3]
+total generalization level = 12
+lowest loss score = 0.8089178468044493
+highest loss score = 0.8089178468044493
+suppression rate = 0.0%
+highest sample risk = 0.6993006993006993%
+prosecutor risk = 0.6993006993006993%
+journalist risk = 0.6993006993006993%
+marketer risk = 0.6666666666666667%
+
+Interpretation
+--------------
+Lower ARX loss scores indicate better retained utility.
+The global optimum is ARX's selected minimum-loss solution under the configured constraints.

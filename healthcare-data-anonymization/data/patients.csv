@@ -1,0 +1,601 @@
+zipcode,age,gender,nationality,diagnosis,admission_date
+10004,21,Female,Qatar,Migraine,2025-03-13
+10004,29,Female,Saudi Arabia,Hypertension,2025-02-17
+20002,47,Male,Egypt,Migraine,2025-11-29
+40003,71,Male,India,Arthritis,2025-01-04
+20001,72,Female,Bahrain,Asthma,2025-04-21
+30001,31,Male,Pakistan,Diabetes,2025-07-03
+30002,51,Male,India,Diabetes,2025-07-13
+10003,55,Female,Jordan,Migraine,2025-12-27
+10003,23,Male,Bahrain,Diabetes,2025-04-30
+10004,66,Female,India,Anemia,2025-03-25
+30002,63,Male,Bahrain,Diabetes,2025-11-08
+20001,49,Male,India,Dermatitis,2025-05-19
+40003,46,Female,Saudi Arabia,Migraine,2025-01-17
+30001,69,Female,United Arab Emirates,Migraine,2025-10-18
+30001,45,Female,Pakistan,Gastritis,2025-03-15
+20004,35,Male,Egypt,Arthritis,2025-10-27
+30004,69,Female,Qatar,Asthma,2025-09-18
+40001,29,Male,United Arab Emirates,Asthma,2025-11-18
+20001,72,Male,Pakistan,Dermatitis,2025-11-02
+30005,85,Female,Egypt,Hypertension,2025-12-15
+10004,52,Female,United Arab Emirates,Arthritis,2025-08-11
+20001,76,Male,Bahrain,Asthma,2025-09-17
+10004,56,Male,Kuwait,Anemia,2025-03-24
+40003,85,Male,Jordan,Anemia,2025-09-08
+10001,32,Female,Bahrain,Migraine,2025-01-30
+20003,28,Male,India,Diabetes,2025-09-30
+10005,34,Female,Egypt,Asthma,2025-05-16
+40002,72,Male,Egypt,Migraine,2025-06-09
+30003,65,Female,Egypt,Gastritis,2025-03-03
+20003,46,Male,Oman,Hypertension,2025-10-29
+40003,47,Male,Saudi Arabia,Diabetes,2025-12-29
+10002,47,Male,Saudi Arabia,Anemia,2025-02-06
+40002,48,Female,India,Migraine,2025-10-04
+10005,78,Male,India,Dermatitis,2025-04-08
+10004,30,Female,Oman,Dermatitis,2025-07-30
+30005,24,Male,Saudi Arabia,Dermatitis,2025-06-23
+10004,49,Male,Qatar,Gastritis,2025-03-13
+30004,41,Female,India,Migraine,2025-02-08
+30005,30,Male,Egypt,Hypertension,2025-02-17
+20003,39,Female,India,Gastritis,2025-04-20
+30003,25,Male,Pakistan,Hypertension,2025-07-19
+20004,76,Female,Pakistan,Gastritis,2025-03-21
+20002,55,Male,Saudi Arabia,Hypertension,2025-06-10
+10002,24,Female,Egypt,Asthma,2025-01-30
+40002,28,Male,United Arab Emirates,Diabetes,2025-12-12
+20003,69,Male,Jordan,Migraine,2025-10-24
+40005,23,Male,Pakistan,Anemia,2025-05-14
+20002,58,Male,Bahrain,Dermatitis,2025-03-09
+20005,76,Female,United Arab Emirates,Hypertension,2025-08-23
+40005,30,Male,Egypt,Migraine,2025-09-17
+20004,34,Female,United Arab Emirates,Migraine,2025-07-09
+20005,38,Female,Egypt,Arthritis,2025-11-10
+40002,19,Female,United Arab Emirates,Asthma,2025-05-16
+10004,31,Male,Bahrain,Arthritis,2025-11-06
+20002,61,Male,Bahrain,Gastritis,2025-05-09
+10002,29,Female,Bahrain,Hypertension,2025-01-02
+30001,34,Female,Kuwait,Gastritis,2025-10-10
+30004,19,Male,United Arab Emirates,Asthma,2025-10-07
+10002,65,Male,Pakistan,Asthma,2025-01-22
+20005,64,Male,Oman,Migraine,2025-12-16
+20003,31,Female,Egypt,Dermatitis,2025-11-14
+10005,48,Male,Kuwait,Dermatitis,2025-01-13
+20001,60,Female,Qatar,Arthritis,2025-03-23
+10004,66,Male,India,Migraine,2025-04-13
+30005,62,Female,Qatar,Migraine,2025-01-13
+20002,69,Female,Bahrain,Diabetes,2025-05-23
+30002,83,Female,Egypt,Anemia,2025-01-15
+10004,51,Male,Jordan,Arthritis,2025-01-20
+10004,73,Female,Oman,Dermatitis,2025-11-07
+40002,32,Female,Jordan,Migraine,2025-05-11
+10002,73,Male,Egypt,Migraine,2025-07-06
+30004,26,Female,Jordan,Anemia,2025-12-06
+10004,56,Female,Pakistan,Anemia,2025-07-26
+20005,34,Male,Pakistan,Dermatitis,2025-12-13
+20001,56,Female,Egypt,Hypertension,2025-06-05
+20005,44,Female,Jordan,Anemia,2025-08-27
+30005,74,Male,Egypt,Gastritis,2025-03-28
+10003,54,Female,United Arab Emirates,Migraine,2025-12-11
+20005,46,Male,Kuwait,Hypertension,2025-01-24
+20003,78,Male,India,Dermatitis,2025-11-19
+40004,42,Female,India,Dermatitis,2025-05-05
+10005,18,Male,Pakistan,Migraine,2025-04-01
+40002,77,Male,Egypt,Migraine,2025-03-04
+30005,35,Female,Egypt,Anemia,2025-08-15
+40005,82,Female,Egypt,Gastritis,2025-03-23
+40001,75,Female,Qatar,Arthritis,2025-09-24
+40001,48,Female,India,Diabetes,2025-05-27
+20003,52,Female,Oman,Diabetes,2025-03-12
+10005,47,Female,Kuwait,Migraine,2025-02-02
+30004,70,Female,Egypt,Gastritis,2025-08-01
+10002,44,Female,Pakistan,Hypertension,2025-10-22
+30003,79,Male,Oman,Arthritis,2025-07-19
+30004,46,Female,Qatar,Arthritis,2025-08-12
+40001,21,Female,Oman,Dermatitis,2025-03-26
+30005,34,Male,Pakistan,Hypertension,2025-02-12
+30004,35,Female,Kuwait,Hypertension,2025-05-14
+30003,59,Male,India,Anemia,2025-06-22
+30003,53,Female,Bahrain,Diabetes,2025-08-29
+10001,24,Female,Qatar,Diabetes,2025-11-30
+10002,21,Male,Qatar,Hypertension,2025-11-15
+10005,48,Male,India,Diabetes,2025-10-16
+20002,77,Female,Oman,Asthma,2025-11-07
+40005,32,Male,Bahrain,Diabetes,2025-10-24
+10001,57,Female,Pakistan,Migraine,2025-02-08
+40004,49,Male,Bahrain,Diabetes,2025-10-17
+10002,62,Female,Oman,Diabetes,2025-09-17
+30001,19,Female,India,Diabetes,2025-08-10
+30002,76,Male,Pakistan,Asthma,2025-09-25
+20004,79,Female,Pakistan,Arthritis,2025-06-15
+20003,29,Female,India,Migraine,2025-08-26
+40004,66,Female,Saudi Arabia,Gastritis,2025-06-16
+20001,80,Male,Oman,Arthritis,2025-06-24
+20004,53,Male,Egypt,Migraine,2025-02-13
+20003,70,Female,Egypt,Migraine,2025-12-20
+40001,80,Female,Saudi Arabia,Diabetes,2025-05-31
+20003,69,Male,Bahrain,Anemia,2025-08-31
+40003,85,Female,Pakistan,Anemia,2025-06-30
+30005,52,Female,Bahrain,Migraine,2025-03-03
+20002,58,Male,Egypt,Asthma,2025-04-09
+20002,79,Female,Jordan,Arthritis,2025-02-21
+20002,55,Male,Oman,Asthma,2025-06-04
+10001,34,Female,Saudi Arabia,Hypertension,2025-10-11
+20005,34,Female,United Arab Emirates,Hypertension,2025-10-21
+20005,78,Female,India,Anemia,2025-04-05
+10002,50,Female,United Arab Emirates,Diabetes,2025-07-25
+40001,27,Male,Kuwait,Asthma,2025-10-16
+20005,28,Male,United Arab Emirates,Dermatitis,2025-11-07
+40005,46,Female,India,Gastritis,2025-06-02
+40004,72,Female,Jordan,Hypertension,2025-11-09
+10004,44,Male,Bahrain,Diabetes,2025-03-22
+20003,40,Male,Kuwait,Hypertension,2025-07-29
+30005,78,Female,Saudi Arabia,Migraine,2025-05-28
+20005,76,Male,Qatar,Arthritis,2025-11-17
+40004,43,Female,United Arab Emirates,Migraine,2025-11-28
+10005,52,Male,United Arab Emirates,Hypertension,2025-03-26
+20005,54,Female,United Arab Emirates,Gastritis,2025-12-19
+20005,69,Female,Egypt,Gastritis,2025-08-13
+10003,23,Female,Oman,Arthritis,2025-01-14
+10003,47,Male,Bahrain,Hypertension,2025-03-31
+40001,84,Female,Bahrain,Asthma,2025-10-27
+30004,80,Male,India,Anemia,2025-07-29
+30001,59,Male,Kuwait,Anemia,2025-07-30
+40001,54,Female,Egypt,Hypertension,2025-08-21
+10003,58,Female,Oman,Diabetes,2025-07-26
+40002,18,Female,Pakistan,Hypertension,2025-04-07
+40002,64,Female,India,Hypertension,2025-04-15
+20004,34,Female,India,Gastritis,2025-03-04
+10001,48,Male,Bahrain,Hypertension,2025-10-10
+30004,29,Male,United Arab Emirates,Gastritis,2025-03-02
+10005,81,Female,Egypt,Arthritis,2025-08-01
+40001,78,Male,India,Asthma,2025-07-16
+20002,83,Male,United Arab Emirates,Arthritis,2025-08-01
+30001,82,Female,Saudi Arabia,Arthritis,2025-06-02
+40004,80,Male,India,Gastritis,2025-06-26
+30001,66,Female,Oman,Migraine,2025-12-24
+20003,67,Male,Pakistan,Hypertension,2025-06-12
+40001,66,Female,Kuwait,Gastritis,2025-01-19
+10005,82,Female,United Arab Emirates,Gastritis,2025-02-21
+40002,76,Male,Kuwait,Dermatitis,2025-12-02
+10005,27,Female,Bahrain,Anemia,2025-11-16
+30003,28,Female,Egypt,Dermatitis,2025-06-12
+40001,22,Male,Qatar,Arthritis,2025-04-27
+10003,73,Male,United Arab Emirates,Gastritis,2025-03-27
+20005,21,Male,Oman,Hypertension,2025-05-31
+30002,65,Female,Kuwait,Migraine,2025-09-29
+30004,41,Male,Kuwait,Diabetes,2025-11-09
+30003,48,Female,Jordan,Asthma,2025-04-29
+30005,50,Female,Bahrain,Hypertension,2025-08-27
+20005,38,Male,India,Anemia,2025-10-28
+20005,72,Female,India,Arthritis,2025-04-12
+30003,79,Male,Qatar,Dermatitis,2025-10-20
+30002,55,Female,Saudi Arabia,Dermatitis,2025-05-21
+10001,24,Female,Bahrain,Migraine,2025-11-07
+30002,46,Male,Jordan,Arthritis,2025-12-14
+10005,30,Male,Bahrain,Gastritis,2025-01-18
+40004,64,Male,United Arab Emirates,Arthritis,2025-06-17
+30004,40,Male,Kuwait,Anemia,2025-09-29
+40002,52,Male,Bahrain,Gastritis,2025-06-01
+30001,32,Female,United Arab Emirates,Asthma,2025-04-26
+30003,64,Male,Pakistan,Hypertension,2025-05-16
+40003,33,Female,Oman,Arthritis,2025-10-27
+30003,65,Male,Qatar,Gastritis,2025-01-13
+40005,59,Male,United Arab Emirates,Gastritis,2025-12-25
+20005,70,Male,Kuwait,Hypertension,2025-01-20
+20005,81,Male,United Arab Emirates,Migraine,2025-10-03
+10005,67,Female,Oman,Dermatitis,2025-10-28
+10005,71,Male,India,Dermatitis,2025-05-24
+10002,65,Male,India,Gastritis,2025-05-01
+30002,30,Female,Egypt,Anemia,2025-02-01
+30003,53,Male,United Arab Emirates,Gastritis,2025-02-16
+20002,20,Male,Oman,Migraine,2025-03-06
+40004,44,Male,Egypt,Migraine,2025-10-28
+20002,47,Female,Kuwait,Hypertension,2025-05-22
+10005,34,Female,Kuwait,Diabetes,2025-12-05
+10001,34,Male,Oman,Migraine,2025-10-29
+30001,20,Male,Bahrain,Hypertension,2025-03-06
+30004,85,Male,United Arab Emirates,Gastritis,2025-08-18
+30002,83,Male,India,Migraine,2025-11-11
+10002,84,Female,India,Hypertension,2025-02-01
+40001,69,Female,United Arab Emirates,Gastritis,2025-12-31
+30005,27,Male,Oman,Asthma,2025-02-03
+10005,53,Female,Pakistan,Arthritis,2025-08-21
+40002,73,Male,United Arab Emirates,Migraine,2025-08-09
+30005,47,Female,Oman,Gastritis,2025-07-24
+30004,30,Female,Pakistan,Anemia,2025-12-07
+20004,65,Male,India,Diabetes,2025-02-16
+10003,29,Female,United Arab Emirates,Anemia,2025-03-08
+40003,25,Female,United Arab Emirates,Dermatitis,2025-07-01
+30004,24,Female,Jordan,Arthritis,2025-06-30
+10004,82,Male,Kuwait,Gastritis,2025-04-25
+10004,62,Female,United Arab Emirates,Arthritis,2025-10-21
+20003,72,Male,Jordan,Arthritis,2025-01-15
+20001,52,Female,Oman,Anemia,2025-01-04
+20001,36,Female,United Arab Emirates,Asthma,2025-11-21
+10001,29,Male,Pakistan,Dermatitis,2025-08-21
+30001,38,Female,Bahrain,Anemia,2025-10-18
+40005,28,Male,Kuwait,Asthma,2025-11-13
+10002,28,Female,India,Dermatitis,2025-09-06
+40005,74,Female,Bahrain,Migraine,2025-09-20
+10004,62,Female,United Arab Emirates,Arthritis,2025-12-14
+40004,80,Female,Saudi Arabia,Migraine,2025-07-22
+40005,25,Male,Qatar,Arthritis,2025-04-19
+10005,50,Female,Oman,Diabetes,2025-01-04
+40001,73,Male,Kuwait,Dermatitis,2025-09-30
+20003,82,Female,United Arab Emirates,Dermatitis,2025-01-22
+30004,20,Female,United Arab Emirates,Anemia,2025-10-22
+30004,69,Female,Bahrain,Diabetes,2025-07-27
+10001,59,Male,Jordan,Gastritis,2025-12-20
+30002,29,Female,United Arab Emirates,Migraine,2025-08-12
+40004,69,Male,Pakistan,Arthritis,2025-06-23
+20003,60,Male,United Arab Emirates,Diabetes,2025-09-29
+40002,42,Female,Oman,Asthma,2025-05-01
+10004,36,Female,Qatar,Asthma,2025-11-05
+10005,27,Male,India,Gastritis,2025-10-16
+40004,75,Female,Oman,Asthma,2025-08-14
+10003,78,Female,Bahrain,Arthritis,2025-10-30
+10002,63,Male,Bahrain,Gastritis,2025-08-20
+10002,25,Female,Bahrain,Diabetes,2025-11-27
+10003,82,Female,India,Hypertension,2025-08-19
+40004,42,Female,Jordan,Gastritis,2025-09-14
+10005,25,Female,United Arab Emirates,Anemia,2025-02-13
+40002,40,Male,Qatar,Gastritis,2025-08-13
+40002,84,Male,Oman,Anemia,2025-05-25
+30003,70,Female,Jordan,Hypertension,2025-11-20
+30001,26,Female,United Arab Emirates,Dermatitis,2025-05-26
+20004,37,Female,United Arab Emirates,Asthma,2025-06-29
+20005,68,Male,Jordan,Diabetes,2025-06-08
+40003,66,Female,Kuwait,Diabetes,2025-11-27
+30004,83,Female,Saudi Arabia,Anemia,2025-06-08
+20001,45,Female,India,Migraine,2025-04-26
+10005,37,Male,Bahrain,Diabetes,2025-09-17
+40003,85,Male,Oman,Asthma,2025-11-02
+30003,37,Male,Kuwait,Asthma,2025-08-13
+10002,70,Female,Qatar,Gastritis,2025-11-09
+20005,75,Male,Egypt,Migraine,2025-06-08
+40001,42,Female,Jordan,Gastritis,2025-08-25
+20005,66,Female,Kuwait,Migraine,2025-11-06
+10005,50,Male,India,Anemia,2025-10-11
+10004,84,Male,Bahrain,Diabetes,2025-03-24
+20004,75,Male,Pakistan,Diabetes,2025-04-24
+30005,62,Male,Pakistan,Hypertension,2025-07-22
+40002,65,Male,Pakistan,Diabetes,2025-07-11
+20003,21,Female,United Arab Emirates,Anemia,2025-03-16
+10005,22,Female,India,Asthma,2025-12-28
+40001,75,Male,United Arab Emirates,Hypertension,2025-05-12
+20002,37,Female,United Arab Emirates,Arthritis,2025-05-02
+20005,33,Male,Qatar,Dermatitis,2025-11-24
+40005,76,Male,United Arab Emirates,Gastritis,2025-11-02
+40003,20,Male,Kuwait,Arthritis,2025-08-08
+10001,63,Male,Jordan,Dermatitis,2025-04-06
+10003,85,Female,United Arab Emirates,Hypertension,2025-07-19
+40001,23,Female,Oman,Arthritis,2025-01-09
+30002,26,Female,Qatar,Diabetes,2025-10-25
+30001,35,Male,Oman,Anemia,2025-11-26
+20001,77,Female,Kuwait,Asthma,2025-02-02
+30005,22,Female,Qatar,Hypertension,2025-04-13
+10002,58,Female,Egypt,Dermatitis,2025-10-06
+40001,50,Male,Qatar,Arthritis,2025-07-02
+10002,60,Female,United Arab Emirates,Anemia,2025-08-12
+30003,74,Female,Oman,Asthma,2025-09-12
+40001,65,Female,United Arab Emirates,Dermatitis,2025-02-10
+30004,41,Female,Oman,Diabetes,2025-02-10
+30001,55,Female,India,Dermatitis,2025-03-27
+30005,62,Female,Saudi Arabia,Anemia,2025-11-11
+30004,53,Male,United Arab Emirates,Dermatitis,2025-07-06
+40002,38,Male,Kuwait,Gastritis,2025-01-18
+10005,26,Male,Oman,Anemia,2025-07-16
+40004,22,Male,India,Anemia,2025-07-10
+30005,27,Male,Egypt,Anemia,2025-07-23
+30001,53,Male,United Arab Emirates,Hypertension,2025-04-06
+40001,84,Female,Egypt,Diabetes,2025-05-15
+20004,75,Male,Jordan,Arthritis,2025-12-22
+40001,43,Male,Kuwait,Diabetes,2025-08-20
+20001,74,Male,Oman,Anemia,2025-12-30
+10003,55,Female,Kuwait,Asthma,2025-07-05
+40002,46,Male,Qatar,Asthma,2025-05-02
+40001,21,Female,Egypt,Anemia,2025-08-28
+40003,34,Male,United Arab Emirates,Arthritis,2025-07-23
+40001,85,Female,Pakistan,Diabetes,2025-03-06
+30001,27,Female,India,Anemia,2025-03-07
+40003,41,Male,Pakistan,Hypertension,2025-03-05
+40002,37,Female,Kuwait,Asthma,2025-06-15
+20003,62,Female,United Arab Emirates,Arthritis,2025-04-11
+40003,53,Male,Bahrain,Diabetes,2025-09-15
+20001,37,Male,Jordan,Anemia,2025-10-16
+10002,21,Male,Saudi Arabia,Arthritis,2025-11-30
+20002,71,Male,India,Arthritis,2025-11-25
+20005,79,Male,Pakistan,Arthritis,2025-08-21
+10003,25,Male,India,Dermatitis,2025-09-05
+30005,44,Female,Jordan,Asthma,2025-06-10
+30001,62,Female,Kuwait,Anemia,2025-09-21
+40003,31,Female,Qatar,Gastritis,2025-03-04
+20004,75,Male,Kuwait,Diabetes,2025-01-26
+20005,67,Female,Qatar,Asthma,2025-06-17
+40004,58,Male,Kuwait,Gastritis,2025-09-21
+30005,81,Female,India,Hypertension,2025-02-16
+30003,82,Female,Qatar,Migraine,2025-10-26
+30002,24,Male,Bahrain,Gastritis,2025-11-02
+40001,54,Male,United Arab Emirates,Dermatitis,2025-03-10
+20004,64,Female,Oman,Hypertension,2025-07-25
+10002,42,Female,Egypt,Arthritis,2025-02-07
+30003,82,Female,Egypt,Arthritis,2025-11-16
+40005,33,Male,United Arab Emirates,Dermatitis,2025-07-11
+30001,64,Male,Qatar,Dermatitis,2025-09-14
+10002,23,Male,Kuwait,Anemia,2025-08-31
+40002,76,Male,Jordan,Asthma,2025-06-17
+40005,58,Male,Pakistan,Arthritis,2025-10-31
+30001,82,Female,Jordan,Arthritis,2025-09-01
+10001,65,Female,United Arab Emirates,Dermatitis,2025-10-26
+20005,21,Female,Bahrain,Migraine,2025-01-27
+40004,79,Male,Egypt,Dermatitis,2025-03-17
+20003,22,Male,Qatar,Hypertension,2025-08-14
+30001,71,Male,Pakistan,Migraine,2025-07-30
+40002,78,Male,Kuwait,Migraine,2025-10-15
+30001,79,Female,Oman,Asthma,2025-08-24
+40003,61,Female,Bahrain,Gastritis,2025-04-09
+20003,53,Female,Qatar,Arthritis,2025-05-28
+20002,80,Female,India,Anemia,2025-10-14
+20004,54,Male,Jordan,Dermatitis,2025-07-22
+30002,36,Female,Saudi Arabia,Arthritis,2025-02-10
+30002,74,Female,India,Migraine,2025-04-14
+40003,52,Female,Kuwait,Diabetes,2025-11-12
+40004,48,Male,Saudi Arabia,Migraine,2025-11-23
+20003,24,Male,Pakistan,Anemia,2025-08-30
+10004,35,Male,Egypt,Asthma,2025-07-28
+40001,79,Male,Bahrain,Anemia,2025-05-27
+10002,29,Male,Egypt,Hypertension,2025-03-31
+30004,40,Male,Pakistan,Gastritis,2025-04-06
+20005,22,Male,Bahrain,Diabetes,2025-06-21
+20005,76,Female,Kuwait,Gastritis,2025-05-20
+20002,32,Female,Kuwait,Gastritis,2025-11-28
+20004,41,Male,Oman,Arthritis,2025-10-18
+20002,40,Female,Pakistan,Anemia,2025-02-14
+30003,30,Male,Kuwait,Gastritis,2025-06-15
+20003,18,Female,Pakistan,Migraine,2025-08-17
+20004,60,Female,Jordan,Hypertension,2025-05-14
+30002,48,Male,United Arab Emirates,Gastritis,2025-06-07
+20001,69,Female,United Arab Emirates,Arthritis,2025-07-08
+40005,46,Male,Kuwait,Gastritis,2025-03-20
+30005,65,Female,Egypt,Gastritis,2025-10-03
+20002,49,Male,Egypt,Gastritis,2025-09-28
+30002,27,Male,Saudi Arabia,Migraine,2025-10-21
+40003,37,Male,Oman,Gastritis,2025-03-01
+20002,80,Male,Egypt,Gastritis,2025-01-29
+30005,34,Female,India,Hypertension,2025-10-14
+30005,57,Male,Pakistan,Arthritis,2025-01-02
+20002,27,Male,Pakistan,Anemia,2025-12-25
+10003,25,Male,India,Hypertension,2025-05-27
+30004,41,Male,Pakistan,Anemia,2025-07-15
+30005,66,Female,United Arab Emirates,Asthma,2025-12-01
+30002,33,Male,Egypt,Dermatitis,2025-09-28
+10005,46,Male,Saudi Arabia,Arthritis,2025-08-26
+40003,72,Female,Qatar,Migraine,2025-08-24
+30002,37,Female,Qatar,Diabetes,2025-01-17
+30004,20,Male,Qatar,Diabetes,2025-02-21
+40005,22,Female,Jordan,Hypertension,2025-05-06
+10002,69,Female,Qatar,Migraine,2025-01-29
+10005,82,Female,Qatar,Anemia,2025-10-23
+40005,59,Male,Bahrain,Asthma,2025-12-05
+40002,46,Female,Bahrain,Arthritis,2025-02-01
+40003,40,Female,Egypt,Gastritis,2025-01-25
+30002,66,Female,Pakistan,Dermatitis,2025-03-18
+20005,66,Male,Egypt,Gastritis,2025-05-04
+20003,56,Male,India,Hypertension,2025-10-15
+30004,71,Male,Pakistan,Migraine,2025-05-11
+20002,60,Male,India,Anemia,2025-02-17
+40003,42,Male,Bahrain,Dermatitis,2025-12-11
+40005,23,Male,Qatar,Migraine,2025-09-03
+20002,60,Female,Saudi Arabia,Migraine,2025-04-08
+10004,79,Male,Jordan,Migraine,2025-07-23
+20003,59,Female,Pakistan,Gastritis,2025-10-01
+30002,57,Female,Oman,Gastritis,2025-08-27
+10004,78,Female,Qatar,Anemia,2025-06-10
+30004,23,Male,Kuwait,Hypertension,2025-05-14
+40003,71,Female,Kuwait,Migraine,2025-06-18
+20003,66,Male,India,Anemia,2025-05-12
+40001,80,Female,Kuwait,Anemia,2025-03-28
+10005,80,Male,Egypt,Hypertension,2025-09-26
+10002,27,Male,Saudi Arabia,Dermatitis,2025-03-12
+20003,26,Male,Saudi Arabia,Migraine,2025-09-16
+30005,65,Male,Jordan,Gastritis,2025-12-04
+40001,20,Male,Egypt,Dermatitis,2025-01-07
+10001,85,Female,Egypt,Arthritis,2025-01-09
+40002,73,Male,United Arab Emirates,Diabetes,2025-09-26
+10005,48,Male,Jordan,Arthritis,2025-07-01
+20004,68,Male,Oman,Dermatitis,2025-08-24
+40004,49,Male,Bahrain,Diabetes,2025-12-01
+10002,29,Female,Pakistan,Dermatitis,2025-10-10
+40001,25,Male,Kuwait,Diabetes,2025-09-13
+30004,60,Male,Egypt,Hypertension,2025-04-28
+20002,78,Female,Saudi Arabia,Diabetes,2025-12-17
+20004,22,Male,Oman,Hypertension,2025-04-17
+40004,36,Female,United Arab Emirates,Arthritis,2025-03-25
+40004,48,Female,Egypt,Anemia,2025-07-16
+10005,28,Female,Saudi Arabia,Diabetes,2025-08-12
+20003,27,Female,Jordan,Dermatitis,2025-06-17
+10001,52,Female,India,Migraine,2025-07-02
+40003,66,Female,Kuwait,Dermatitis,2025-02-13
+40005,55,Male,United Arab Emirates,Diabetes,2025-05-18
+10005,66,Male,Pakistan,Anemia,2025-07-04
+10004,29,Male,Bahrain,Gastritis,2025-07-04
+20004,31,Male,United Arab Emirates,Asthma,2025-08-09
+30005,83,Female,United Arab Emirates,Hypertension,2025-02-15
+30002,29,Female,Pakistan,Hypertension,2025-05-30
+30004,67,Male,Egypt,Migraine,2025-10-20
+40002,39,Female,Kuwait,Asthma,2025-05-18
+20005,52,Female,Kuwait,Diabetes,2025-03-27
+30004,53,Female,Bahrain,Gastritis,2025-02-09
+30002,50,Male,India,Migraine,2025-08-23
+10004,35,Female,Saudi Arabia,Dermatitis,2025-06-20
+40005,66,Female,India,Anemia,2025-08-09
+40005,35,Female,Oman,Migraine,2025-09-03
+30001,40,Female,Oman,Arthritis,2025-12-22
+40001,49,Female,Pakistan,Arthritis,2025-07-21
+30002,32,Male,Jordan,Asthma,2025-12-16
+40003,21,Female,Qatar,Gastritis,2025-05-30
+10003,70,Female,Kuwait,Arthritis,2025-05-04
+20004,37,Female,Pakistan,Diabetes,2025-08-18
+40005,79,Female,Egypt,Dermatitis,2025-10-06
+10002,64,Male,United Arab Emirates,Migraine,2025-12-03
+30002,39,Male,Jordan,Dermatitis,2025-06-19
+30004,31,Male,United Arab Emirates,Arthritis,2025-04-24
+40002,84,Male,India,Anemia,2025-07-20
+30005,82,Male,Oman,Hypertension,2025-09-05
+10004,55,Female,United Arab Emirates,Diabetes,2025-03-14
+30002,57,Female,India,Migraine,2025-09-24
+40001,62,Female,United Arab Emirates,Gastritis,2025-12-23
+30005,58,Male,Bahrain,Hypertension,2025-12-30
+10004,20,Female,United Arab Emirates,Asthma,2025-05-05
+40002,40,Male,Oman,Dermatitis,2025-08-25
+20003,69,Male,Kuwait,Dermatitis,2025-07-22
+10001,43,Female,Jordan,Dermatitis,2025-07-19
+10001,45,Male,Bahrain,Diabetes,2025-10-23
+10004,41,Female,Oman,Migraine,2025-08-23
+10004,51,Female,Egypt,Anemia,2025-11-02
+30003,68,Male,Oman,Anemia,2025-08-23
+40005,40,Female,Jordan,Diabetes,2025-12-11
+10005,58,Male,Qatar,Arthritis,2025-03-01
+20001,65,Male,Egypt,Dermatitis,2025-08-03
+40005,35,Female,Pakistan,Asthma,2025-09-07
+40003,40,Male,India,Arthritis,2025-03-13
+20001,58,Female,Jordan,Hypertension,2025-07-03
+10001,80,Male,Qatar,Dermatitis,2025-10-15
+40002,81,Female,India,Dermatitis,2025-12-30
+30005,80,Male,United Arab Emirates,Hypertension,2025-04-23
+20005,22,Female,Qatar,Arthritis,2025-03-28
+30005,81,Male,Jordan,Diabetes,2025-05-18
+40003,64,Male,India,Migraine,2025-08-06
+10004,49,Female,Saudi Arabia,Gastritis,2025-05-15
+30002,29,Female,United Arab Emirates,Migraine,2025-04-18
+40004,62,Female,Kuwait,Asthma,2025-04-16
+20002,25,Female,Egypt,Arthritis,2025-11-02
+40003,39,Female,Bahrain,Arthritis,2025-10-21
+20004,83,Male,Kuwait,Dermatitis,2025-01-31
+20004,34,Male,Qatar,Asthma,2025-12-31
+30001,49,Female,India,Asthma,2025-10-23
+20004,71,Female,India,Diabetes,2025-11-21
+10003,69,Female,Oman,Gastritis,2025-09-07
+30001,18,Male,India,Anemia,2025-02-02
+40003,68,Male,Pakistan,Migraine,2025-09-11
+20004,59,Female,Oman,Asthma,2025-10-17
+40001,61,Male,Saudi Arabia,Diabetes,2025-11-17
+30005,20,Male,Kuwait,Gastritis,2025-08-22
+10001,72,Male,Kuwait,Arthritis,2025-03-23
+20004,29,Female,Bahrain,Diabetes,2025-07-10
+20001,24,Female,Bahrain,Migraine,2025-08-08
+10003,30,Male,Qatar,Gastritis,2025-02-09
+10005,46,Female,Saudi Arabia,Hypertension,2025-12-23
+30001,33,Female,Kuwait,Gastritis,2025-02-06
+20003,67,Male,United Arab Emirates,Diabetes,2025-06-10
+30002,56,Male,Pakistan,Asthma,2025-11-25
+10005,26,Male,Jordan,Asthma,2025-08-14
+30002,45,Male,Pakistan,Gastritis,2025-04-22
+10003,30,Male,United Arab Emirates,Dermatitis,2025-06-29
+30004,58,Male,Qatar,Arthritis,2025-11-27
+10003,49,Female,Saudi Arabia,Arthritis,2025-04-16
+40002,83,Male,Pakistan,Arthritis,2025-11-27
+10002,48,Female,Pakistan,Diabetes,2025-05-04
+40001,27,Male,Oman,Anemia,2025-03-09
+30003,71,Female,Egypt,Asthma,2025-08-30
+10003,20,Male,Saudi Arabia,Arthritis,2025-04-21
+10002,25,Female,Egypt,Arthritis,2025-11-18
+40002,71,Female,Pakistan,Diabetes,2025-11-24
+40003,37,Female,United Arab Emirates,Arthritis,2025-02-10
+40002,44,Male,Egypt,Anemia,2025-07-20
+40004,26,Female,Pakistan,Migraine,2025-01-30
+20003,29,Female,United Arab Emirates,Gastritis,2025-11-10
+40005,25,Female,Kuwait,Diabetes,2025-01-07
+10005,19,Male,India,Anemia,2025-09-25
+40002,51,Male,Oman,Asthma,2025-05-18
+10004,21,Female,Pakistan,Arthritis,2025-09-26
+10003,51,Male,India,Gastritis,2025-09-19
+30002,25,Female,Jordan,Asthma,2025-07-08
+20001,50,Male,Jordan,Diabetes,2025-04-27
+40002,18,Male,Saudi Arabia,Migraine,2025-01-24
+40001,64,Female,Kuwait,Asthma,2025-01-19
+40003,71,Male,Oman,Migraine,2025-08-02
+30001,52,Male,Jordan,Anemia,2025-03-03
+40002,24,Male,Qatar,Hypertension,2025-07-25
+10003,77,Female,Bahrain,Anemia,2025-02-14
+40003,76,Male,Oman,Migraine,2025-05-30
+40004,56,Male,India,Anemia,2025-10-30
+40001,43,Male,Kuwait,Hypertension,2025-07-29
+10001,47,Female,Saudi Arabia,Anemia,2025-01-01
+30003,57,Male,Qatar,Migraine,2025-08-03
+40001,25,Male,Bahrain,Diabetes,2025-01-23
+20003,84,Female,Oman,Gastritis,2025-02-13
+40004,30,Male,Pakistan,Diabetes,2025-10-31
+40004,25,Female,Kuwait,Migraine,2025-05-30
+20004,58,Female,Oman,Anemia,2025-08-20
+20004,47,Male,Qatar,Asthma,2025-10-27
+10004,37,Male,Kuwait,Gastritis,2025-08-27
+30001,70,Male,Egypt,Anemia,2025-04-17
+30005,57,Female,Bahrain,Diabetes,2025-02-16
+20001,56,Male,Qatar,Anemia,2025-03-17
+10003,49,Female,Pakistan,Hypertension,2025-12-13
+20005,51,Male,Saudi Arabia,Dermatitis,2025-08-20
+40003,49,Male,India,Diabetes,2025-03-13
+10004,19,Male,Qatar,Asthma,2025-04-12
+30003,65,Male,Jordan,Arthritis,2025-02-08
+10001,26,Male,India,Asthma,2025-02-17
+30001,33,Male,India,Hypertension,2025-03-28
+40004,73,Female,India,Hypertension,2025-07-15
+30004,40,Female,Qatar,Asthma,2025-05-21
+20004,75,Male,Saudi Arabia,Migraine,2025-11-28
+20005,81,Female,Egypt,Gastritis,2025-02-01
+10003,53,Female,Kuwait,Dermatitis,2025-04-13
+40002,49,Male,Pakistan,Anemia,2025-09-03
+40003,80,Female,Jordan,Anemia,2025-07-18
+20004,41,Male,Oman,Migraine,2025-01-16
+20004,25,Female,Egypt,Anemia,2025-10-27
+20003,38,Male,Qatar,Migraine,2025-05-17
+40003,25,Male,Jordan,Dermatitis,2025-07-01
+20001,40,Male,Jordan,Anemia,2025-12-24
+30002,21,Female,Jordan,Asthma,2025-10-16
+20002,81,Female,Kuwait,Gastritis,2025-01-20
+10003,25,Male,Jordan,Migraine,2025-01-11
+40002,79,Male,Oman,Migraine,2025-03-08
+30001,40,Female,Saudi Arabia,Hypertension,2025-03-17
+40004,36,Male,Egypt,Anemia,2025-02-07
+30002,68,Male,Oman,Arthritis,2025-06-15
+10005,38,Female,India,Anemia,2025-03-31
+40003,63,Male,Jordan,Asthma,2025-07-13
+20005,55,Male,Kuwait,Hypertension,2025-12-26
+40004,68,Male,Kuwait,Anemia,2025-11-10
+20003,31,Female,Kuwait,Anemia,2025-02-09
+20003,62,Female,Kuwait,Diabetes,2025-12-29
+30001,75,Male,Bahrain,Migraine,2025-05-08
+10003,62,Female,United Arab Emirates,Hypertension,2025-01-25
+30003,74,Female,Kuwait,Dermatitis,2025-09-10
+30003,62,Female,United Arab Emirates,Gastritis,2025-10-23
+20003,38,Female,United Arab Emirates,Hypertension,2025-05-31
+10001,58,Female,United Arab Emirates,Diabetes,2025-06-25
+20001,66,Male,United Arab Emirates,Diabetes,2025-06-23
+40005,79,Male,Pakistan,Asthma,2025-11-07
+30004,38,Male,United Arab Emirates,Anemia,2025-04-16
+20002,70,Female,Bahrain,Arthritis,2025-05-02
+10004,24,Female,Jordan,Gastritis,2025-03-20
+10002,64,Male,Pakistan,Diabetes,2025-05-31
+40005,79,Male,United Arab Emirates,Hypertension,2025-04-16
+20001,55,Male,India,Diabetes,2025-06-07
+30003,78,Female,Bahrain,Diabetes,2025-11-25
+40003,67,Male,Oman,Dermatitis,2025-07-09
+20001,75,Male,Bahrain,Gastritis,2025-08-27
+20004,46,Female,Jordan,Hypertension,2025-03-19
+10004,28,Female,Egypt,Dermatitis,2025-10-29
+20003,25,Female,Egypt,Dermatitis,2025-10-02
+40001,48,Female,Bahrain,Diabetes,2025-07-22
+10002,82,Male,United Arab Emirates,Gastritis,2025-03-30
+20001,45,Male,Kuwait,Hypertension,2025-08-05
+10003,73,Male,Kuwait,Arthritis,2025-06-13
+10003,29,Female,Egypt,Dermatitis,2025-10-10
+30001,53,Female,Saudi Arabia,Dermatitis,2025-02-27
+30004,37,Male,Jordan,Diabetes,2025-02-24
+40004,30,Female,Egypt,Anemia,2025-07-30
+20004,67,Female,Jordan,Gastritis,2025-01-20
+20001,53,Female,Kuwait,Dermatitis,2025-01-20
+30003,60,Male,Saudi Arabia,Gastritis,2025-05-18
+30002,20,Female,Bahrain,Arthritis,2025-05-24
+40001,30,Male,Kuwait,Arthritis,2025-08-15

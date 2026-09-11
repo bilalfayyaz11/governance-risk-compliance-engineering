@@ -1,0 +1,22 @@
+ARX anonymization result
+========================
+k = 5
+distinct l = 3
+t = 0.2
+t-closeness distance = equal-distance EMD
+suppression limit = 5%
+records = 600
+suppressed records = 0
+suppression rate = 0.0%
+optimum found = true
+runtime ms = 230
+QI attributes = [zipcode, age, gender, nationality, admission_date]
+transformation = [1, 4, 0, 3, 3]
+total generalization level = 11
+lowest information-loss score = 0.5747544504920252
+highest information-loss score = 0.5747544504920252
+highest sample risk = 1.5625%
+average sample risk = 1.3333333333333335%
+prosecutor risk = 1.5625%
+journalist risk = 1.5625%
+marketer risk = 1.3333333333333335%

@@ -1,0 +1,50 @@
+ARX configuration
+=================
+
+Engine:
+ARX Data Anonymization Tool 3.9.2
+
+Execution mode:
+Java API / headless
+
+Privacy models:
+k-anonymity = 5
+distinct l-diversity = 3
+sensitive attribute = diagnosis
+t-closeness = 0.2
+distance = Equal Distance / EMD
+
+Suppression limit:
+5%
+
+Quality model:
+ARX Loss Metric
+
+Quasi-identifiers:
+zipcode
+age
+gender
+nationality
+admission_date
+
+Sensitive attribute:
+diagnosis
+
+Removed direct identifier:
+patient_id
+
+Hierarchy files:
+hierarchies/zipcode_hierarchy.csv
+hierarchies/age_hierarchy.csv
+hierarchies/gender_hierarchy.csv
+hierarchies/nationality_hierarchy.csv
+hierarchies/admission_date_hierarchy.csv
+
+Primary output:
+output/patients_anonymized.csv
+
+Evidence:
+evidence/anonymization_metrics.txt
+evidence/transformation_comparison.txt
+evidence/attribute_classification.md
+evidence/hierarchy_design.md
