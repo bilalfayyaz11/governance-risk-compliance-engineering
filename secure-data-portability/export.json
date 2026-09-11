@@ -1,0 +1,10 @@
+{
+  "user_id": "U1001",
+  "full_name": "Aisha Al Farsi",
+  "email": "aisha@example.com",
+  "phone": "+971500000000",
+  "signup_date": "2023-01-15",
+  "preferences": {
+    "newsletter": true
+  }
+}
